@@ -237,7 +237,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -780,7 +780,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	1.5140	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.9400	</value>
@@ -831,7 +831,7 @@
 							<value>	1.6625 2.8000 3.1000 8.3000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.1180	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.8790	</value>
@@ -883,7 +883,7 @@
 							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.3200	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -977,13 +977,13 @@
 							<value>	2.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2200	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -1019,22 +1019,22 @@
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -1380,8 +1380,7 @@
 				</Lightmaps>
 			</Shadows>
 		</Weather>
-		<Weather
-				user_name="Evening">
+		<Weather user_name="Evening">
 			<settings>
 				<effect>
 					<value>	null	</value>
@@ -1462,7 +1461,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -2005,7 +2004,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	1.5140	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.9400	</value>
@@ -2056,7 +2055,7 @@
 							<value>	1.6625 2.8000 3.1000 8.3000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0070	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.2130	</value>
@@ -2108,7 +2107,7 @@
 							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.3200	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -2202,13 +2201,13 @@
 							<value>	2.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2200	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -2244,22 +2243,22 @@
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -2605,8 +2604,7 @@
 				</Lightmaps>
 			</Shadows>
 		</Weather>
-		<Weather
-				user_name="Cloudy">
+		<Weather user_name="Cloudy">
 			<settings>
 				<effect>
 					<value>	null	</value>
@@ -2687,7 +2685,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -3230,7 +3228,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	1.5140	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.9400	</value>
@@ -3281,7 +3279,7 @@
 							<value>	1.6625 2.8000 3.1000 8.3000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0010	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.5710	</value>
@@ -3333,7 +3331,7 @@
 							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.3200	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -3427,13 +3425,13 @@
 							<value>	2.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2200	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -3469,22 +3467,22 @@
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -3830,8 +3828,7 @@
 				</Lightmaps>
 			</Shadows>
 		</Weather>
-		<Weather
-				user_name="Storm">
+		<Weather user_name="Storm">
 			<settings>
 				<effect>
 					<value>	particles/rain_tropical.xml	</value>
@@ -3912,7 +3909,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -4455,7 +4452,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	1.5140	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.9400	</value>
@@ -4506,7 +4503,7 @@
 							<value>	1.1000 3.0000 3.2000 8.3000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0070	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.2500	</value>
@@ -4558,7 +4555,7 @@
 							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.3200	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -4652,13 +4649,13 @@
 							<value>	5.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2200	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -4694,22 +4691,22 @@
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -5055,8 +5052,7 @@
 				</Lightmaps>
 			</Shadows>
 		</Weather>
-		<Weather
-				user_name="CVCWeather">
+		<Weather user_name="CVCWeather">
 			<settings>
 				<effect>
 					<value>	null	</value>
@@ -5137,7 +5133,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -5680,7 +5676,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	1.5140	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.9400	</value>
@@ -5731,7 +5727,7 @@
 							<value>	1.6625 2.8000 3.1000 8.3000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0070	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.2420	</value>
@@ -5783,7 +5779,7 @@
 							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.3200	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -5877,13 +5873,13 @@
 							<value>	2.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2200	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -5919,22 +5915,22 @@
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>

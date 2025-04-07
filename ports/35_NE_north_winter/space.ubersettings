@@ -253,7 +253,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -796,7 +796,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	4.0000	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.1000	</value>
@@ -847,7 +847,7 @@
 							<value>	1.4000 3.0000 3.5000 4.4000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0000	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -899,7 +899,7 @@
 							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.0750	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -975,22 +975,22 @@
 							<value>	0.0000	</value>
 						</seaLevel>
 						<simpleWavesTimeScale>
-							<value>	1.0000	</value>
+							<value>	-28.0000	</value>
 						</simpleWavesTimeScale>
 						<UVWarpingAmplitude>
-							<value>	0.0600	</value>
+							<value>	150.0000	</value>
 						</UVWarpingAmplitude>
 						<UVWarpingFrequency>
-							<value>	2.0000	</value>
+							<value>	0.0600	</value>
 						</UVWarpingFrequency>
 						<gravity>
-							<value>	9.8000	</value>
+							<value>	600.0000	</value>
 						</gravity>
 						<depth>
-							<value>	100.0000	</value>
+							<value>	1.0000	</value>
 						</depth>
 						<windSpeedLargeWave>
-							<value>	9.0000	</value>
+							<value>	1.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
 							<value>	0.2000	</value>
@@ -1108,43 +1108,43 @@
 				<Shoreline>
 					<settings>
 						<waveLength>
-							<value>	0.8000	</value>
+							<value>	0.0000	</value>
 						</waveLength>
 						<waveLengthFoam>
-							<value>	2.3000	</value>
+							<value>	1.0000	</value>
 						</waveLengthFoam>
 						<maxWindDir>
-							<value>	0.3000	</value>
+							<value>	0.0600	</value>
 						</maxWindDir>
 						<shoreWaveDeformAmplitude>
-							<value>	0.0700	</value>
+							<value>	2.0000	</value>
 						</shoreWaveDeformAmplitude>
 						<foamWaveDeformAmplitude>
-							<value>	0.5000	</value>
+							<value>	9.8000	</value>
 						</foamWaveDeformAmplitude>
 						<foamWaveIntensity>
-							<value>	2.0000	</value>
+							<value>	100.0000	</value>
 						</foamWaveIntensity>
 						<foamWaveAddDensity>
-							<value>	0.0000	</value>
+							<value>	9.0000	</value>
 						</foamWaveAddDensity>
 						<waveParallelness>
-							<value>	0.4000	</value>
+							<value>	0.0100	</value>
 						</waveParallelness>
 						<waveSpeed>
-							<value>	1.2000	</value>
+							<value>	0.6500	</value>
 						</waveSpeed>
 						<foamWaveSpeedMult>
-							<value>	0.7000	</value>
+							<value>	0.3000	</value>
 						</foamWaveSpeedMult>
 						<maxShoreDist>
-							<value>	14.0000	</value>
+							<value>	0.7000	</value>
 						</maxShoreDist>
 						<foamSparsity>
-							<value>	0.5000	</value>
+							<value>	300.0000	</value>
 						</foamSparsity>
 						<foamArrowness>
-							<value>	0.0600	</value>
+							<value>	500.0000	</value>
 						</foamArrowness>
 					</settings>
 				</Shoreline>
@@ -1649,8 +1649,7 @@
 				</settings>
 			</Volumetrics>
 		</Weather>
-		<Weather
-				user_name="Night">
+		<Weather user_name="Night">
 			<settings>
 				<effect>
 					<value>	null	</value>
@@ -1731,7 +1730,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -2274,7 +2273,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	4.0000	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.3000	</value>
@@ -2325,7 +2324,7 @@
 							<value>	1.4000 3.0000 3.5000 4.4000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0080	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -2377,7 +2376,7 @@
 							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.0750	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -2453,22 +2452,22 @@
 							<value>	0.0000	</value>
 						</seaLevel>
 						<simpleWavesTimeScale>
-							<value>	1.0000	</value>
+							<value>	-28.0000	</value>
 						</simpleWavesTimeScale>
 						<UVWarpingAmplitude>
-							<value>	0.0600	</value>
+							<value>	150.0000	</value>
 						</UVWarpingAmplitude>
 						<UVWarpingFrequency>
-							<value>	2.0000	</value>
+							<value>	0.0600	</value>
 						</UVWarpingFrequency>
 						<gravity>
-							<value>	9.8000	</value>
+							<value>	600.0000	</value>
 						</gravity>
 						<depth>
-							<value>	100.0000	</value>
+							<value>	1.0000	</value>
 						</depth>
 						<windSpeedLargeWave>
-							<value>	9.0000	</value>
+							<value>	1.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
 							<value>	0.2000	</value>
@@ -2586,43 +2585,43 @@
 				<Shoreline>
 					<settings>
 						<waveLength>
-							<value>	0.8000	</value>
+							<value>	0.0000	</value>
 						</waveLength>
 						<waveLengthFoam>
-							<value>	2.3000	</value>
+							<value>	1.0000	</value>
 						</waveLengthFoam>
 						<maxWindDir>
-							<value>	0.3000	</value>
+							<value>	0.0600	</value>
 						</maxWindDir>
 						<shoreWaveDeformAmplitude>
-							<value>	0.0700	</value>
+							<value>	2.0000	</value>
 						</shoreWaveDeformAmplitude>
 						<foamWaveDeformAmplitude>
-							<value>	0.5000	</value>
+							<value>	9.8000	</value>
 						</foamWaveDeformAmplitude>
 						<foamWaveIntensity>
-							<value>	2.0000	</value>
+							<value>	100.0000	</value>
 						</foamWaveIntensity>
 						<foamWaveAddDensity>
-							<value>	0.0000	</value>
+							<value>	9.0000	</value>
 						</foamWaveAddDensity>
 						<waveParallelness>
-							<value>	0.4000	</value>
+							<value>	0.0100	</value>
 						</waveParallelness>
 						<waveSpeed>
-							<value>	1.2000	</value>
+							<value>	0.6500	</value>
 						</waveSpeed>
 						<foamWaveSpeedMult>
-							<value>	0.7000	</value>
+							<value>	0.3000	</value>
 						</foamWaveSpeedMult>
 						<maxShoreDist>
-							<value>	14.0000	</value>
+							<value>	0.7000	</value>
 						</maxShoreDist>
 						<foamSparsity>
-							<value>	0.5000	</value>
+							<value>	300.0000	</value>
 						</foamSparsity>
 						<foamArrowness>
-							<value>	0.0600	</value>
+							<value>	500.0000	</value>
 						</foamArrowness>
 					</settings>
 				</Shoreline>
@@ -3127,8 +3126,7 @@
 				</settings>
 			</Volumetrics>
 		</Weather>
-		<Weather
-				user_name="Morning">
+		<Weather user_name="Morning">
 			<settings>
 				<effect>
 					<value>	null	</value>
@@ -3209,7 +3207,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -3752,7 +3750,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	4.0000	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.1000	</value>
@@ -3803,7 +3801,7 @@
 							<value>	1.4000 3.0000 3.5000 4.4000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0000	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -3855,7 +3853,7 @@
 							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.0750	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -3931,22 +3929,22 @@
 							<value>	0.0000	</value>
 						</seaLevel>
 						<simpleWavesTimeScale>
-							<value>	1.0000	</value>
+							<value>	-28.0000	</value>
 						</simpleWavesTimeScale>
 						<UVWarpingAmplitude>
-							<value>	0.0600	</value>
+							<value>	150.0000	</value>
 						</UVWarpingAmplitude>
 						<UVWarpingFrequency>
-							<value>	2.0000	</value>
+							<value>	0.0600	</value>
 						</UVWarpingFrequency>
 						<gravity>
-							<value>	9.8000	</value>
+							<value>	600.0000	</value>
 						</gravity>
 						<depth>
-							<value>	100.0000	</value>
+							<value>	1.0000	</value>
 						</depth>
 						<windSpeedLargeWave>
-							<value>	9.0000	</value>
+							<value>	1.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
 							<value>	0.2000	</value>
@@ -4064,43 +4062,43 @@
 				<Shoreline>
 					<settings>
 						<waveLength>
-							<value>	0.8000	</value>
+							<value>	0.0000	</value>
 						</waveLength>
 						<waveLengthFoam>
-							<value>	2.3000	</value>
+							<value>	1.0000	</value>
 						</waveLengthFoam>
 						<maxWindDir>
-							<value>	0.3000	</value>
+							<value>	0.0600	</value>
 						</maxWindDir>
 						<shoreWaveDeformAmplitude>
-							<value>	0.0700	</value>
+							<value>	2.0000	</value>
 						</shoreWaveDeformAmplitude>
 						<foamWaveDeformAmplitude>
-							<value>	0.5000	</value>
+							<value>	9.8000	</value>
 						</foamWaveDeformAmplitude>
 						<foamWaveIntensity>
-							<value>	2.0000	</value>
+							<value>	100.0000	</value>
 						</foamWaveIntensity>
 						<foamWaveAddDensity>
-							<value>	0.0000	</value>
+							<value>	9.0000	</value>
 						</foamWaveAddDensity>
 						<waveParallelness>
-							<value>	0.4000	</value>
+							<value>	0.0100	</value>
 						</waveParallelness>
 						<waveSpeed>
-							<value>	1.2000	</value>
+							<value>	0.6500	</value>
 						</waveSpeed>
 						<foamWaveSpeedMult>
-							<value>	0.7000	</value>
+							<value>	0.3000	</value>
 						</foamWaveSpeedMult>
 						<maxShoreDist>
-							<value>	14.0000	</value>
+							<value>	0.7000	</value>
 						</maxShoreDist>
 						<foamSparsity>
-							<value>	0.5000	</value>
+							<value>	300.0000	</value>
 						</foamSparsity>
 						<foamArrowness>
-							<value>	0.0600	</value>
+							<value>	500.0000	</value>
 						</foamArrowness>
 					</settings>
 				</Shoreline>

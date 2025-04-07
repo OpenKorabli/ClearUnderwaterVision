@@ -253,7 +253,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -796,7 +796,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	2.0140	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.9400	</value>
@@ -847,7 +847,7 @@
 							<value>	1.5750 3.3750 3.8500 2.8000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.1500	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6500	</value>
@@ -899,7 +899,7 @@
 							<value>	0.9500	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.4347	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -993,13 +993,13 @@
 							<value>	5.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2200	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -1035,22 +1035,22 @@
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -1410,19 +1410,19 @@
 						<value>	0.0000 0.0660	</value>
 					</weatherWetnessScaleBias>
 					<weatherScale>
-						<value>	0.8000	</value>
+						<value>	1.0000	</value>
 					</weatherScale>
 					<weatherProceduralSpeed>
-						<value>	0.0000	</value>
+						<value>	2.0000	</value>
 					</weatherProceduralSpeed>
 					<weatherProceduralContrib>
 						<value>	0.0000	</value>
 					</weatherProceduralContrib>
 					<weatherProceduralMinHMult>
-						<value>	0.6100	</value>
+						<value>	0.6000	</value>
 					</weatherProceduralMinHMult>
 					<weatherProceduralPow>
-						<value>	0.0010	</value>
+						<value>	1.0000	</value>
 					</weatherProceduralPow>
 					<weatherTextureContrib>
 						<value>	1.0000	</value>
@@ -1440,31 +1440,31 @@
 						<value>	1.0000	</value>
 					</cloudsErodeBasePow>
 					<cloudsScale>
-						<value>	0.7000	</value>
+						<value>	0.2500	</value>
 					</cloudsScale>
 					<cloudsGlobalDensityMult>
-						<value>	0.0800	</value>
+						<value>	0.1000	</value>
 					</cloudsGlobalDensityMult>
 					<cloudsSunDirDensityMult>
-						<value>	0.9833	</value>
+						<value>	0.7000	</value>
 					</cloudsSunDirDensityMult>
 					<cloudsSunDirDensityAnglePow>
-						<value>	5.0000	</value>
+						<value>	1.6000	</value>
 					</cloudsSunDirDensityAnglePow>
 					<cloudsStart>
-						<value>	916.6670	</value>
+						<value>	893.3330	</value>
 					</cloudsStart>
 					<cloudsEnd>
-						<value>	2327.3330	</value>
+						<value>	2412.0000	</value>
 					</cloudsEnd>
 					<skyVisibilityCos>
 						<value>	99.9700	</value>
 					</skyVisibilityCos>
 					<cloudsAngle>
-						<value>	1.9700	</value>
+						<value>	0.0000	</value>
 					</cloudsAngle>
 					<cloudsWindSpeed>
-						<value>	0.1000	</value>
+						<value>	0.3000	</value>
 					</cloudsWindSpeed>
 					<cloudsDistortion>
 						<value>	160.0000	</value>
@@ -1476,10 +1476,10 @@
 						<value>	0.6120 0.3800	</value>
 					</cloudsDistortionTypeRamp>
 					<cloudsDistortionAltitudePow>
-						<value>	1.4000	</value>
+						<value>	1.6280	</value>
 					</cloudsDistortionAltitudePow>
 					<cloudsNonFlatness>
-						<value>	0.1700	</value>
+						<value>	0.1000	</value>
 					</cloudsNonFlatness>
 					<midCloudsScale>
 						<value>	0.5000 2.0000	</value>
@@ -1500,7 +1500,7 @@
 						<value>	0.2000 0.3200	</value>
 					</midCloudsNonFlatness>
 					<midCloudsDensityMult>
-						<value>	0.3000	</value>
+						<value>	350.0000	</value>
 					</midCloudsDensityMult>
 					<midCloudsDistortion>
 						<value>	0.0000 0.0000	</value>
@@ -1509,13 +1509,13 @@
 						<value>	3.0000 8.4000	</value>
 					</midCloudsOffset>
 					<midCloudsHeight>
-						<value>	510.0000	</value>
+						<value>	7000.0000	</value>
 					</midCloudsHeight>
 					<midCloudsNearCoastHeightOffset>
-						<value>	-100.0000	</value>
+						<value>	1500.0000	</value>
 					</midCloudsNearCoastHeightOffset>
 					<midCloudsNearCoastDist>
-						<value>	50.0000	</value>
+						<value>	1.0000	</value>
 					</midCloudsNearCoastDist>
 					<midCloudsMaxFarDist>
 						<value>	13150.0000	</value>
@@ -1545,7 +1545,7 @@
 						<value>	0.5680	</value>
 					</cloudsPowderAmount>
 					<cloudsPowderCoef>
-						<value>	3.0170	</value>
+						<value>	-0.2970	</value>
 					</cloudsPowderCoef>
 					<cloudsPhaseG0>
 						<value>	0.1760	</value>
@@ -1554,7 +1554,7 @@
 						<value>	1.0000 1.0000 1.0000	</value>
 					</cloudsPhaseG0Color>
 					<cloudsPhaseG1>
-						<value>	-0.1410	</value>
+						<value>	1.0000	</value>
 					</cloudsPhaseG1>
 					<cloudsPhaseG1Color>
 						<value>	0.6980 0.6980 0.6980	</value>
@@ -1563,73 +1563,73 @@
 						<value>	1.0000 1.0000 1.0000	</value>
 					</cloudsSunColorOverride>
 					<cloudsSunColorOverrideLerp>
-						<value>	0.4500	</value>
+						<value>	0.0100	</value>
 					</cloudsSunColorOverrideLerp>
 					<cloudsSunMult>
-						<value>	0.1110	</value>
+						<value>	0.0000	</value>
 					</cloudsSunMult>
 					<cloudsDeepSunColor>
 						<value>	0.9922 0.8314 0.6784	</value>
 					</cloudsDeepSunColor>
 					<cloudsDeepSunMult>
-						<value>	0.2167	</value>
+						<value>	0.6000	</value>
 					</cloudsDeepSunMult>
 					<cloudsSunBottom>
-						<value>	0.0000	</value>
+						<value>	1.0000	</value>
 					</cloudsSunBottom>
 					<midCloudsScatteringMult>
-						<value>	5.0000	</value>
+						<value>	1.0000	</value>
 					</midCloudsScatteringMult>
 					<midCloudsExtinctionMult>
-						<value>	0.6000	</value>
+						<value>	0.7000	</value>
 					</midCloudsExtinctionMult>
 					<midCloudsSunMult>
 						<value>	1.0000	</value>
 					</midCloudsSunMult>
 					<midCloudsSelfShadowAmount>
-						<value>	1.0000	</value>
+						<value>	0.0233	</value>
 					</midCloudsSelfShadowAmount>
 					<midCloudsAmbientMult>
-						<value>	0.2170	</value>
+						<value>	0.0000	</value>
 					</midCloudsAmbientMult>
 					<midCloudsFlatAmbientMult>
 						<value>	2.0000	</value>
 					</midCloudsFlatAmbientMult>
 					<cloudsAmbientTop>
-						<value>	0.0000	</value>
+						<value>	0.4000	</value>
 					</cloudsAmbientTop>
 					<cloudsAmbientBottom>
-						<value>	0.0000	</value>
+						<value>	1.0000	</value>
 					</cloudsAmbientBottom>
 					<cloudsOverallAmbientColor>
 						<value>	0.5120 0.5120 0.5120	</value>
 					</cloudsOverallAmbientColor>
 					<cloudsOverallAmbientMipFactor>
-						<value>	0.2500	</value>
+						<value>	1.0000	</value>
 					</cloudsOverallAmbientMipFactor>
 					<cloudsShadowSeaIntensity>
 						<value>	1.0000	</value>
 					</cloudsShadowSeaIntensity>
 					<minWetnessFog>
-						<value>	1.0000	</value>
+						<value>	30.0000	</value>
 					</minWetnessFog>
 					<minWetnessRain>
 						<value>	1.0000	</value>
 					</minWetnessRain>
 					<minWetnessLightning>
-						<value>	1.0000	</value>
+						<value>	0.7000	</value>
 					</minWetnessLightning>
 					<fogWetnessDensityMult>
-						<value>	30.0000	</value>
+						<value>	0.4000	</value>
 					</fogWetnessDensityMult>
 					<fogWetnessHardnessPow>
-						<value>	1.0000	</value>
+						<value>	60.0000	</value>
 					</fogWetnessHardnessPow>
 					<fogVisMin>
 						<value>	0.7000	</value>
 					</fogVisMin>
 					<fogVisGain>
-						<value>	0.4000	</value>
+						<value>	5.0000	</value>
 					</fogVisGain>
 					<fogVertical>
 						<value>	1.0000	</value>
@@ -1649,8 +1649,7 @@
 				</settings>
 			</Volumetrics>
 		</Weather>
-		<Weather
-				user_name="CVCWeather">
+		<Weather user_name="CVCWeather">
 			<settings>
 				<effect>
 					<value>	particles/rain_tropical.xml	</value>
@@ -1731,7 +1730,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -2274,7 +2273,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	2.0140	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.9400	</value>
@@ -2325,7 +2324,7 @@
 							<value>	1.5000 3.5000 4.0000 2.8000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0100	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.3000	</value>
@@ -2377,7 +2376,7 @@
 							<value>	0.9500	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.0000	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -2471,13 +2470,13 @@
 							<value>	5.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2200	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -2513,22 +2512,22 @@
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -2891,16 +2890,16 @@
 						<value>	0.8000	</value>
 					</weatherScale>
 					<weatherProceduralSpeed>
-						<value>	0.0000	</value>
+						<value>	2.0000	</value>
 					</weatherProceduralSpeed>
 					<weatherProceduralContrib>
 						<value>	0.0000	</value>
 					</weatherProceduralContrib>
 					<weatherProceduralMinHMult>
-						<value>	0.6100	</value>
+						<value>	0.6000	</value>
 					</weatherProceduralMinHMult>
 					<weatherProceduralPow>
-						<value>	0.0010	</value>
+						<value>	1.0000	</value>
 					</weatherProceduralPow>
 					<weatherTextureContrib>
 						<value>	1.0000	</value>
@@ -2915,13 +2914,13 @@
 						<value>	1.0000 1.0000 1.0000 0.0000	</value>
 					</cloudsNoiseLerp>
 					<cloudsErodeBasePow>
-						<value>	0.6790	</value>
+						<value>	1.0000	</value>
 					</cloudsErodeBasePow>
 					<cloudsScale>
-						<value>	0.6033	</value>
+						<value>	0.1400	</value>
 					</cloudsScale>
 					<cloudsGlobalDensityMult>
-						<value>	0.0133	</value>
+						<value>	0.0100	</value>
 					</cloudsGlobalDensityMult>
 					<cloudsSunDirDensityMult>
 						<value>	1.0000	</value>
@@ -2930,10 +2929,10 @@
 						<value>	2.0000	</value>
 					</cloudsSunDirDensityAnglePow>
 					<cloudsStart>
-						<value>	1163.3330	</value>
+						<value>	800.0000	</value>
 					</cloudsStart>
 					<cloudsEnd>
-						<value>	1882.8330	</value>
+						<value>	2400.0000	</value>
 					</cloudsEnd>
 					<skyVisibilityCos>
 						<value>	99.9600	</value>
@@ -2978,7 +2977,7 @@
 						<value>	0.2500 0.4000	</value>
 					</midCloudsNonFlatness>
 					<midCloudsDensityMult>
-						<value>	0.1000	</value>
+						<value>	433.3000	</value>
 					</midCloudsDensityMult>
 					<midCloudsDistortion>
 						<value>	400.0000 600.0000	</value>
@@ -2987,13 +2986,13 @@
 						<value>	1.6700 2.8000	</value>
 					</midCloudsOffset>
 					<midCloudsHeight>
-						<value>	500.0000	</value>
+						<value>	7000.0000	</value>
 					</midCloudsHeight>
 					<midCloudsNearCoastHeightOffset>
-						<value>	-100.0000	</value>
+						<value>	1500.0000	</value>
 					</midCloudsNearCoastHeightOffset>
 					<midCloudsNearCoastDist>
-						<value>	50.0000	</value>
+						<value>	1.0000	</value>
 					</midCloudsNearCoastDist>
 					<midCloudsMaxFarDist>
 						<value>	12000.0000	</value>
@@ -3023,7 +3022,7 @@
 						<value>	1.0870	</value>
 					</cloudsPowderAmount>
 					<cloudsPowderCoef>
-						<value>	2.0000	</value>
+						<value>	0.2030	</value>
 					</cloudsPowderCoef>
 					<cloudsPhaseG0>
 						<value>	0.6560	</value>
@@ -3032,7 +3031,7 @@
 						<value>	0.8708 0.7658 0.4625	</value>
 					</cloudsPhaseG0Color>
 					<cloudsPhaseG1>
-						<value>	0.2030	</value>
+						<value>	0.7970	</value>
 					</cloudsPhaseG1>
 					<cloudsPhaseG1Color>
 						<value>	0.9809 0.9326 0.7791	</value>
@@ -3041,73 +3040,73 @@
 						<value>	0.9856 0.9856 0.9856	</value>
 					</cloudsSunColorOverride>
 					<cloudsSunColorOverrideLerp>
-						<value>	1.0000	</value>
+						<value>	0.0000	</value>
 					</cloudsSunColorOverrideLerp>
 					<cloudsSunMult>
-						<value>	0.2000	</value>
+						<value>	0.0000	</value>
 					</cloudsSunMult>
 					<cloudsDeepSunColor>
 						<value>	1.0000 1.0000 1.0000	</value>
 					</cloudsDeepSunColor>
 					<cloudsDeepSunMult>
-						<value>	0.0000	</value>
+						<value>	0.6000	</value>
 					</cloudsDeepSunMult>
 					<cloudsSunBottom>
-						<value>	0.0000	</value>
+						<value>	1.0000	</value>
 					</cloudsSunBottom>
 					<midCloudsScatteringMult>
-						<value>	1.5010	</value>
+						<value>	1.0000	</value>
 					</midCloudsScatteringMult>
 					<midCloudsExtinctionMult>
-						<value>	0.3100	</value>
+						<value>	1.0000	</value>
 					</midCloudsExtinctionMult>
 					<midCloudsSunMult>
-						<value>	0.2900	</value>
+						<value>	0.4000	</value>
 					</midCloudsSunMult>
 					<midCloudsSelfShadowAmount>
-						<value>	0.4370	</value>
+						<value>	0.0500	</value>
 					</midCloudsSelfShadowAmount>
 					<midCloudsAmbientMult>
-						<value>	0.2000	</value>
+						<value>	0.0000	</value>
 					</midCloudsAmbientMult>
 					<midCloudsFlatAmbientMult>
 						<value>	0.8000	</value>
 					</midCloudsFlatAmbientMult>
 					<cloudsAmbientTop>
-						<value>	0.0000	</value>
+						<value>	0.4000	</value>
 					</cloudsAmbientTop>
 					<cloudsAmbientBottom>
-						<value>	0.0000	</value>
+						<value>	0.6000	</value>
 					</cloudsAmbientBottom>
 					<cloudsOverallAmbientColor>
 						<value>	0.9522 0.9421 0.8291	</value>
 					</cloudsOverallAmbientColor>
 					<cloudsOverallAmbientMipFactor>
-						<value>	0.4000	</value>
+						<value>	0.0000	</value>
 					</cloudsOverallAmbientMipFactor>
 					<cloudsShadowSeaIntensity>
-						<value>	0.6000	</value>
+						<value>	0.3000	</value>
 					</cloudsShadowSeaIntensity>
 					<minWetnessFog>
-						<value>	0.3000	</value>
+						<value>	30.0000	</value>
 					</minWetnessFog>
 					<minWetnessRain>
-						<value>	0.0000	</value>
+						<value>	1.1330	</value>
 					</minWetnessRain>
 					<minWetnessLightning>
-						<value>	0.3000	</value>
+						<value>	0.6400	</value>
 					</minWetnessLightning>
 					<fogWetnessDensityMult>
-						<value>	30.0000	</value>
+						<value>	0.4600	</value>
 					</fogWetnessDensityMult>
 					<fogWetnessHardnessPow>
-						<value>	1.1330	</value>
+						<value>	60.0000	</value>
 					</fogWetnessHardnessPow>
 					<fogVisMin>
 						<value>	0.6400	</value>
 					</fogVisMin>
 					<fogVisGain>
-						<value>	0.4600	</value>
+						<value>	15.0000	</value>
 					</fogVisGain>
 					<fogVertical>
 						<value>	1.0000	</value>
@@ -3127,8 +3126,7 @@
 				</settings>
 			</Volumetrics>
 		</Weather>
-		<Weather
-				user_name="Cloudy">
+		<Weather user_name="Cloudy">
 			<settings>
 				<effect>
 					<value>	null	</value>
@@ -3209,7 +3207,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -3752,7 +3750,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	2.0140	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.9400	</value>
@@ -3803,7 +3801,7 @@
 							<value>	1.5750 3.3750 3.8500 2.8000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.1500	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6500	</value>
@@ -3855,7 +3853,7 @@
 							<value>	0.9500	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.4347	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -3949,13 +3947,13 @@
 							<value>	5.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2200	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -3991,22 +3989,22 @@
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -4369,13 +4367,13 @@
 						<value>	1.0000	</value>
 					</weatherScale>
 					<weatherProceduralSpeed>
-						<value>	0.0000	</value>
+						<value>	2.0000	</value>
 					</weatherProceduralSpeed>
 					<weatherProceduralContrib>
 						<value>	0.0000	</value>
 					</weatherProceduralContrib>
 					<weatherProceduralMinHMult>
-						<value>	0.6700	</value>
+						<value>	0.6000	</value>
 					</weatherProceduralMinHMult>
 					<weatherProceduralPow>
 						<value>	1.0000	</value>
@@ -4393,37 +4391,37 @@
 						<value>	1.0000 1.0000 1.0000 0.0000	</value>
 					</cloudsNoiseLerp>
 					<cloudsErodeBasePow>
-						<value>	1.1200	</value>
+						<value>	1.0000	</value>
 					</cloudsErodeBasePow>
 					<cloudsScale>
-						<value>	0.7800	</value>
+						<value>	0.4500	</value>
 					</cloudsScale>
 					<cloudsGlobalDensityMult>
-						<value>	0.0800	</value>
+						<value>	0.0767	</value>
 					</cloudsGlobalDensityMult>
 					<cloudsSunDirDensityMult>
-						<value>	0.0500	</value>
+						<value>	1.0000	</value>
 					</cloudsSunDirDensityMult>
 					<cloudsSunDirDensityAnglePow>
-						<value>	5.1130	</value>
+						<value>	1.4000	</value>
 					</cloudsSunDirDensityAnglePow>
 					<cloudsStart>
-						<value>	916.6670	</value>
+						<value>	800.0000	</value>
 					</cloudsStart>
 					<cloudsEnd>
-						<value>	2327.3330	</value>
+						<value>	2000.0000	</value>
 					</cloudsEnd>
 					<skyVisibilityCos>
 						<value>	99.9600	</value>
 					</skyVisibilityCos>
 					<cloudsAngle>
-						<value>	1.9700	</value>
+						<value>	0.0000	</value>
 					</cloudsAngle>
 					<cloudsWindSpeed>
-						<value>	0.1000	</value>
+						<value>	0.3000	</value>
 					</cloudsWindSpeed>
 					<cloudsDistortion>
-						<value>	160.0000	</value>
+						<value>	0.0000	</value>
 					</cloudsDistortion>
 					<cloudsDistortionDir>
 						<value>	1.0000 0.0000 0.1820	</value>
@@ -4432,10 +4430,10 @@
 						<value>	0.6120 0.3800	</value>
 					</cloudsDistortionTypeRamp>
 					<cloudsDistortionAltitudePow>
-						<value>	1.4000	</value>
+						<value>	1.1000	</value>
 					</cloudsDistortionAltitudePow>
 					<cloudsNonFlatness>
-						<value>	0.1700	</value>
+						<value>	0.1520	</value>
 					</cloudsNonFlatness>
 					<midCloudsScale>
 						<value>	0.8000 2.0000	</value>
@@ -4456,7 +4454,7 @@
 						<value>	0.2500 0.4000	</value>
 					</midCloudsNonFlatness>
 					<midCloudsDensityMult>
-						<value>	0.1000	</value>
+						<value>	650.0000	</value>
 					</midCloudsDensityMult>
 					<midCloudsDistortion>
 						<value>	400.0000 600.0000	</value>
@@ -4465,13 +4463,13 @@
 						<value>	3.0000 8.4000	</value>
 					</midCloudsOffset>
 					<midCloudsHeight>
-						<value>	510.0000	</value>
+						<value>	7000.0000	</value>
 					</midCloudsHeight>
 					<midCloudsNearCoastHeightOffset>
-						<value>	306.7000	</value>
+						<value>	1500.0000	</value>
 					</midCloudsNearCoastHeightOffset>
 					<midCloudsNearCoastDist>
-						<value>	54.3000	</value>
+						<value>	0.0000	</value>
 					</midCloudsNearCoastDist>
 					<midCloudsMaxFarDist>
 						<value>	15000.0000	</value>
@@ -4501,7 +4499,7 @@
 						<value>	0.5680	</value>
 					</cloudsPowderAmount>
 					<cloudsPowderCoef>
-						<value>	1.6330	</value>
+						<value>	-0.5000	</value>
 					</cloudsPowderCoef>
 					<cloudsPhaseG0>
 						<value>	0.1760	</value>
@@ -4510,7 +4508,7 @@
 						<value>	1.0000 1.0000 1.0000	</value>
 					</cloudsPhaseG0Color>
 					<cloudsPhaseG1>
-						<value>	-0.1410	</value>
+						<value>	1.0000	</value>
 					</cloudsPhaseG1>
 					<cloudsPhaseG1Color>
 						<value>	0.6986 0.6986 0.6986	</value>
@@ -4519,73 +4517,73 @@
 						<value>	0.9900 0.8682 0.2152	</value>
 					</cloudsSunColorOverride>
 					<cloudsSunColorOverrideLerp>
-						<value>	0.4100	</value>
+						<value>	0.0100	</value>
 					</cloudsSunColorOverrideLerp>
 					<cloudsSunMult>
-						<value>	0.1110	</value>
+						<value>	0.0000	</value>
 					</cloudsSunMult>
 					<cloudsDeepSunColor>
 						<value>	0.9904 0.8303 0.6777	</value>
 					</cloudsDeepSunColor>
 					<cloudsDeepSunMult>
-						<value>	0.2167	</value>
+						<value>	0.6000	</value>
 					</cloudsDeepSunMult>
 					<cloudsSunBottom>
-						<value>	0.0000	</value>
+						<value>	1.0000	</value>
 					</cloudsSunBottom>
 					<midCloudsScatteringMult>
-						<value>	4.0000	</value>
+						<value>	1.0000	</value>
 					</midCloudsScatteringMult>
 					<midCloudsExtinctionMult>
-						<value>	0.4300	</value>
+						<value>	0.7000	</value>
 					</midCloudsExtinctionMult>
 					<midCloudsSunMult>
 						<value>	1.0000	</value>
 					</midCloudsSunMult>
 					<midCloudsSelfShadowAmount>
-						<value>	0.5500	</value>
+						<value>	0.0233	</value>
 					</midCloudsSelfShadowAmount>
 					<midCloudsAmbientMult>
-						<value>	0.2000	</value>
+						<value>	0.0000	</value>
 					</midCloudsAmbientMult>
 					<midCloudsFlatAmbientMult>
 						<value>	0.8000	</value>
 					</midCloudsFlatAmbientMult>
 					<cloudsAmbientTop>
-						<value>	0.0000	</value>
+						<value>	0.2500	</value>
 					</cloudsAmbientTop>
 					<cloudsAmbientBottom>
-						<value>	0.0000	</value>
+						<value>	1.0000	</value>
 					</cloudsAmbientBottom>
 					<cloudsOverallAmbientColor>
 						<value>	0.5137 0.5137 0.5137	</value>
 					</cloudsOverallAmbientColor>
 					<cloudsOverallAmbientMipFactor>
-						<value>	0.2500	</value>
+						<value>	1.0000	</value>
 					</cloudsOverallAmbientMipFactor>
 					<cloudsShadowSeaIntensity>
 						<value>	1.0000	</value>
 					</cloudsShadowSeaIntensity>
 					<minWetnessFog>
-						<value>	1.0000	</value>
+						<value>	30.0000	</value>
 					</minWetnessFog>
 					<minWetnessRain>
 						<value>	1.0000	</value>
 					</minWetnessRain>
 					<minWetnessLightning>
-						<value>	1.0000	</value>
+						<value>	0.7000	</value>
 					</minWetnessLightning>
 					<fogWetnessDensityMult>
-						<value>	30.0000	</value>
+						<value>	0.4000	</value>
 					</fogWetnessDensityMult>
 					<fogWetnessHardnessPow>
-						<value>	1.0000	</value>
+						<value>	60.0000	</value>
 					</fogWetnessHardnessPow>
 					<fogVisMin>
 						<value>	0.7000	</value>
 					</fogVisMin>
 					<fogVisGain>
-						<value>	0.4000	</value>
+						<value>	5.0000	</value>
 					</fogVisGain>
 					<fogVertical>
 						<value>	0.3400	</value>
@@ -4605,8 +4603,7 @@
 				</settings>
 			</Volumetrics>
 		</Weather>
-		<Weather
-				user_name="LocalWeather">
+		<Weather user_name="LocalWeather">
 			<settings>
 				<effect>
 					<value>	particles/rain_tropical.xml	</value>
@@ -4687,7 +4684,7 @@
 						<value>	0.8250	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -5230,7 +5227,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	2.0140	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.9400	</value>
@@ -5281,7 +5278,7 @@
 							<value>	1.5750 3.3750 4.5000 2.8000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0200	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.1240	</value>
@@ -5333,7 +5330,7 @@
 							<value>	0.9500	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.0000	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -5427,13 +5424,13 @@
 							<value>	7.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.3000	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -5469,22 +5466,22 @@
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -5844,16 +5841,16 @@
 						<value>	0.0000 1.0000	</value>
 					</weatherWetnessScaleBias>
 					<weatherScale>
-						<value>	0.0100	</value>
+						<value>	1.0000	</value>
 					</weatherScale>
 					<weatherProceduralSpeed>
-						<value>	0.0000	</value>
+						<value>	2.0000	</value>
 					</weatherProceduralSpeed>
 					<weatherProceduralContrib>
 						<value>	0.0000	</value>
 					</weatherProceduralContrib>
 					<weatherProceduralMinHMult>
-						<value>	0.7100	</value>
+						<value>	0.6000	</value>
 					</weatherProceduralMinHMult>
 					<weatherProceduralPow>
 						<value>	1.0000	</value>
@@ -5871,25 +5868,25 @@
 						<value>	1.0000 1.0000 0.0000 1.0000	</value>
 					</cloudsNoiseLerp>
 					<cloudsErodeBasePow>
-						<value>	0.8400	</value>
+						<value>	1.0000	</value>
 					</cloudsErodeBasePow>
 					<cloudsScale>
-						<value>	0.8000	</value>
+						<value>	0.0500	</value>
 					</cloudsScale>
 					<cloudsGlobalDensityMult>
-						<value>	0.1900	</value>
+						<value>	0.0300	</value>
 					</cloudsGlobalDensityMult>
 					<cloudsSunDirDensityMult>
-						<value>	0.2500	</value>
+						<value>	1.0000	</value>
 					</cloudsSunDirDensityMult>
 					<cloudsSunDirDensityAnglePow>
 						<value>	2.0000	</value>
 					</cloudsSunDirDensityAnglePow>
 					<cloudsStart>
-						<value>	1000.0000	</value>
+						<value>	800.0000	</value>
 					</cloudsStart>
 					<cloudsEnd>
-						<value>	2000.0000	</value>
+						<value>	2500.0000	</value>
 					</cloudsEnd>
 					<skyVisibilityCos>
 						<value>	99.9600	</value>
@@ -5901,7 +5898,7 @@
 						<value>	0.3000	</value>
 					</cloudsWindSpeed>
 					<cloudsDistortion>
-						<value>	26.6670	</value>
+						<value>	160.0000	</value>
 					</cloudsDistortion>
 					<cloudsDistortionDir>
 						<value>	0.3070 0.0000 0.6360	</value>
@@ -5910,7 +5907,7 @@
 						<value>	0.4120 0.6850	</value>
 					</cloudsDistortionTypeRamp>
 					<cloudsDistortionAltitudePow>
-						<value>	3.0140	</value>
+						<value>	1.1500	</value>
 					</cloudsDistortionAltitudePow>
 					<cloudsNonFlatness>
 						<value>	0.1000	</value>
@@ -5934,7 +5931,7 @@
 						<value>	0.2500 0.4000	</value>
 					</midCloudsNonFlatness>
 					<midCloudsDensityMult>
-						<value>	0.1000	</value>
+						<value>	350.0000	</value>
 					</midCloudsDensityMult>
 					<midCloudsDistortion>
 						<value>	0.0000 0.0000	</value>
@@ -5943,13 +5940,13 @@
 						<value>	0.0000 0.0000	</value>
 					</midCloudsOffset>
 					<midCloudsHeight>
-						<value>	500.0000	</value>
+						<value>	7000.0000	</value>
 					</midCloudsHeight>
 					<midCloudsNearCoastHeightOffset>
-						<value>	-100.0000	</value>
+						<value>	1500.0000	</value>
 					</midCloudsNearCoastHeightOffset>
 					<midCloudsNearCoastDist>
-						<value>	50.0000	</value>
+						<value>	1.0000	</value>
 					</midCloudsNearCoastDist>
 					<midCloudsMaxFarDist>
 						<value>	12000.0000	</value>
@@ -5979,7 +5976,7 @@
 						<value>	0.6670	</value>
 					</cloudsPowderAmount>
 					<cloudsPowderCoef>
-						<value>	1.8500	</value>
+						<value>	-0.5000	</value>
 					</cloudsPowderCoef>
 					<cloudsPhaseG0>
 						<value>	0.3270	</value>
@@ -5988,7 +5985,7 @@
 						<value>	1.0000 1.0000 1.0000	</value>
 					</cloudsPhaseG0Color>
 					<cloudsPhaseG1>
-						<value>	-0.1660	</value>
+						<value>	0.0000	</value>
 					</cloudsPhaseG1>
 					<cloudsPhaseG1Color>
 						<value>	0.2344 0.2344 0.2344	</value>
@@ -5997,73 +5994,73 @@
 						<value>	1.0000 1.0000 1.0000	</value>
 					</cloudsSunColorOverride>
 					<cloudsSunColorOverrideLerp>
-						<value>	0.7930	</value>
+						<value>	0.0000	</value>
 					</cloudsSunColorOverrideLerp>
 					<cloudsSunMult>
-						<value>	0.1430	</value>
+						<value>	0.0000	</value>
 					</cloudsSunMult>
 					<cloudsDeepSunColor>
 						<value>	1.0000 1.0000 1.0000	</value>
 					</cloudsDeepSunColor>
 					<cloudsDeepSunMult>
-						<value>	0.0033	</value>
+						<value>	0.4710	</value>
 					</cloudsDeepSunMult>
 					<cloudsSunBottom>
-						<value>	0.0037	</value>
+						<value>	1.0000	</value>
 					</cloudsSunBottom>
 					<midCloudsScatteringMult>
-						<value>	1.6680	</value>
+						<value>	1.0000	</value>
 					</midCloudsScatteringMult>
 					<midCloudsExtinctionMult>
-						<value>	0.6710	</value>
+						<value>	1.0000	</value>
 					</midCloudsExtinctionMult>
 					<midCloudsSunMult>
-						<value>	1.0000	</value>
+						<value>	0.4000	</value>
 					</midCloudsSunMult>
 					<midCloudsSelfShadowAmount>
-						<value>	1.0000	</value>
+						<value>	0.0500	</value>
 					</midCloudsSelfShadowAmount>
 					<midCloudsAmbientMult>
-						<value>	0.2000	</value>
+						<value>	0.0050	</value>
 					</midCloudsAmbientMult>
 					<midCloudsFlatAmbientMult>
 						<value>	0.8000	</value>
 					</midCloudsFlatAmbientMult>
 					<cloudsAmbientTop>
-						<value>	0.0000	</value>
+						<value>	0.4000	</value>
 					</cloudsAmbientTop>
 					<cloudsAmbientBottom>
-						<value>	0.0000	</value>
+						<value>	1.0000	</value>
 					</cloudsAmbientBottom>
 					<cloudsOverallAmbientColor>
 						<value>	1.0000 1.0000 1.0000	</value>
 					</cloudsOverallAmbientColor>
 					<cloudsOverallAmbientMipFactor>
-						<value>	0.4000	</value>
+						<value>	0.4200	</value>
 					</cloudsOverallAmbientMipFactor>
 					<cloudsShadowSeaIntensity>
-						<value>	1.0000	</value>
+						<value>	0.4500	</value>
 					</cloudsShadowSeaIntensity>
 					<minWetnessFog>
-						<value>	1.0000	</value>
+						<value>	30.5000	</value>
 					</minWetnessFog>
 					<minWetnessRain>
-						<value>	0.4200	</value>
+						<value>	1.0870	</value>
 					</minWetnessRain>
 					<minWetnessLightning>
-						<value>	0.4000	</value>
+						<value>	0.6230	</value>
 					</minWetnessLightning>
 					<fogWetnessDensityMult>
-						<value>	30.5000	</value>
+						<value>	1.0900	</value>
 					</fogWetnessDensityMult>
 					<fogWetnessHardnessPow>
-						<value>	0.6470	</value>
+						<value>	93.4800	</value>
 					</fogWetnessHardnessPow>
 					<fogVisMin>
 						<value>	0.1630	</value>
 					</fogVisMin>
 					<fogVisGain>
-						<value>	0.1900	</value>
+						<value>	15.0000	</value>
 					</fogVisGain>
 					<fogVertical>
 						<value>	1.0000	</value>
@@ -6083,8 +6080,7 @@
 				</settings>
 			</Volumetrics>
 		</Weather>
-		<Weather
-				user_name="GlobalWeather">
+		<Weather user_name="GlobalWeather">
 			<settings>
 				<effect>
 					<value>	null	</value>
@@ -6165,7 +6161,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -6708,7 +6704,7 @@
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	2.0140	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
 							<value>	-0.9400	</value>
@@ -6759,7 +6755,7 @@
 							<value>	1.5750 3.3750 4.5000 2.8000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0410	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.1630	</value>
@@ -6811,7 +6807,7 @@
 							<value>	0.9500	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.0000	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -6905,13 +6901,13 @@
 							<value>	5.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2200	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -6947,22 +6943,22 @@
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -7322,10 +7318,10 @@
 						<value>	1.0000 0.0000	</value>
 					</weatherWetnessScaleBias>
 					<weatherScale>
-						<value>	0.0100	</value>
+						<value>	1.0000	</value>
 					</weatherScale>
 					<weatherProceduralSpeed>
-						<value>	0.0000	</value>
+						<value>	2.0000	</value>
 					</weatherProceduralSpeed>
 					<weatherProceduralContrib>
 						<value>	0.0000	</value>
@@ -7334,7 +7330,7 @@
 						<value>	0.6000	</value>
 					</weatherProceduralMinHMult>
 					<weatherProceduralPow>
-						<value>	1.1010	</value>
+						<value>	1.0000	</value>
 					</weatherProceduralPow>
 					<weatherTextureContrib>
 						<value>	1.0000	</value>
@@ -7349,25 +7345,25 @@
 						<value>	1.0000 0.9940 0.7910 0.6100	</value>
 					</cloudsNoiseLerp>
 					<cloudsErodeBasePow>
-						<value>	0.8400	</value>
+						<value>	1.0000	</value>
 					</cloudsErodeBasePow>
 					<cloudsScale>
-						<value>	0.8000	</value>
+						<value>	0.0500	</value>
 					</cloudsScale>
 					<cloudsGlobalDensityMult>
-						<value>	0.0300	</value>
+						<value>	0.0200	</value>
 					</cloudsGlobalDensityMult>
 					<cloudsSunDirDensityMult>
-						<value>	0.2500	</value>
+						<value>	1.0000	</value>
 					</cloudsSunDirDensityMult>
 					<cloudsSunDirDensityAnglePow>
 						<value>	2.0000	</value>
 					</cloudsSunDirDensityAnglePow>
 					<cloudsStart>
-						<value>	1000.0000	</value>
+						<value>	800.0000	</value>
 					</cloudsStart>
 					<cloudsEnd>
-						<value>	2000.0000	</value>
+						<value>	2500.0000	</value>
 					</cloudsEnd>
 					<skyVisibilityCos>
 						<value>	99.9600	</value>
@@ -7379,7 +7375,7 @@
 						<value>	0.3000	</value>
 					</cloudsWindSpeed>
 					<cloudsDistortion>
-						<value>	66.6670	</value>
+						<value>	160.0000	</value>
 					</cloudsDistortion>
 					<cloudsDistortionDir>
 						<value>	0.7160 0.0000 0.9090	</value>
@@ -7388,7 +7384,7 @@
 						<value>	0.4490 0.4720	</value>
 					</cloudsDistortionTypeRamp>
 					<cloudsDistortionAltitudePow>
-						<value>	2.8540	</value>
+						<value>	1.1500	</value>
 					</cloudsDistortionAltitudePow>
 					<cloudsNonFlatness>
 						<value>	0.1000	</value>
@@ -7412,7 +7408,7 @@
 						<value>	0.2500 0.4000	</value>
 					</midCloudsNonFlatness>
 					<midCloudsDensityMult>
-						<value>	0.1000	</value>
+						<value>	350.0000	</value>
 					</midCloudsDensityMult>
 					<midCloudsDistortion>
 						<value>	0.0000 0.0000	</value>
@@ -7421,13 +7417,13 @@
 						<value>	0.0000 0.0000	</value>
 					</midCloudsOffset>
 					<midCloudsHeight>
-						<value>	500.0000	</value>
+						<value>	7000.0000	</value>
 					</midCloudsHeight>
 					<midCloudsNearCoastHeightOffset>
-						<value>	-100.0000	</value>
+						<value>	1500.0000	</value>
 					</midCloudsNearCoastHeightOffset>
 					<midCloudsNearCoastDist>
-						<value>	50.0000	</value>
+						<value>	1.0000	</value>
 					</midCloudsNearCoastDist>
 					<midCloudsMaxFarDist>
 						<value>	12000.0000	</value>
@@ -7457,7 +7453,7 @@
 						<value>	1.1870	</value>
 					</cloudsPowderAmount>
 					<cloudsPowderCoef>
-						<value>	1.5330	</value>
+						<value>	-0.1700	</value>
 					</cloudsPowderCoef>
 					<cloudsPhaseG0>
 						<value>	0.0460	</value>
@@ -7466,7 +7462,7 @@
 						<value>	0.3744 0.3763 0.3780	</value>
 					</cloudsPhaseG0Color>
 					<cloudsPhaseG1>
-						<value>	-0.1700	</value>
+						<value>	0.0000	</value>
 					</cloudsPhaseG1>
 					<cloudsPhaseG1Color>
 						<value>	0.1514 0.1829 0.2775	</value>
@@ -7475,73 +7471,73 @@
 						<value>	1.0000 1.0000 1.0000	</value>
 					</cloudsSunColorOverride>
 					<cloudsSunColorOverrideLerp>
-						<value>	0.0000	</value>
+						<value>	0.2600	</value>
 					</cloudsSunColorOverrideLerp>
 					<cloudsSunMult>
-						<value>	0.0970	</value>
+						<value>	0.0000	</value>
 					</cloudsSunMult>
 					<cloudsDeepSunColor>
 						<value>	0.0500 0.0622 0.0909	</value>
 					</cloudsDeepSunColor>
 					<cloudsDeepSunMult>
-						<value>	0.3333	</value>
+						<value>	0.6000	</value>
 					</cloudsDeepSunMult>
 					<cloudsSunBottom>
-						<value>	0.0000	</value>
+						<value>	1.0000	</value>
 					</cloudsSunBottom>
 					<midCloudsScatteringMult>
-						<value>	3.0000	</value>
+						<value>	1.0000	</value>
 					</midCloudsScatteringMult>
 					<midCloudsExtinctionMult>
-						<value>	0.6000	</value>
+						<value>	1.0000	</value>
 					</midCloudsExtinctionMult>
 					<midCloudsSunMult>
-						<value>	1.0000	</value>
+						<value>	0.4000	</value>
 					</midCloudsSunMult>
 					<midCloudsSelfShadowAmount>
-						<value>	1.0000	</value>
+						<value>	0.0233	</value>
 					</midCloudsSelfShadowAmount>
 					<midCloudsAmbientMult>
-						<value>	0.2000	</value>
+						<value>	0.0050	</value>
 					</midCloudsAmbientMult>
 					<midCloudsFlatAmbientMult>
 						<value>	0.8000	</value>
 					</midCloudsFlatAmbientMult>
 					<cloudsAmbientTop>
-						<value>	0.0000	</value>
+						<value>	0.4000	</value>
 					</cloudsAmbientTop>
 					<cloudsAmbientBottom>
-						<value>	0.0000	</value>
+						<value>	1.0000	</value>
 					</cloudsAmbientBottom>
 					<cloudsOverallAmbientColor>
 						<value>	1.0000 1.0000 1.0000	</value>
 					</cloudsOverallAmbientColor>
 					<cloudsOverallAmbientMipFactor>
-						<value>	0.4000	</value>
+						<value>	0.3000	</value>
 					</cloudsOverallAmbientMipFactor>
 					<cloudsShadowSeaIntensity>
 						<value>	1.0000	</value>
 					</cloudsShadowSeaIntensity>
 					<minWetnessFog>
-						<value>	0.3000	</value>
+						<value>	30.0000	</value>
 					</minWetnessFog>
 					<minWetnessRain>
-						<value>	0.3000	</value>
+						<value>	1.0000	</value>
 					</minWetnessRain>
 					<minWetnessLightning>
-						<value>	1.0000	</value>
+						<value>	0.7000	</value>
 					</minWetnessLightning>
 					<fogWetnessDensityMult>
-						<value>	30.0000	</value>
+						<value>	0.4000	</value>
 					</fogWetnessDensityMult>
 					<fogWetnessHardnessPow>
-						<value>	1.0000	</value>
+						<value>	60.0000	</value>
 					</fogWetnessHardnessPow>
 					<fogVisMin>
 						<value>	0.7000	</value>
 					</fogVisMin>
 					<fogVisGain>
-						<value>	0.4000	</value>
+						<value>	15.0000	</value>
 					</fogVisGain>
 					<fogVertical>
 						<value>	1.0000	</value>

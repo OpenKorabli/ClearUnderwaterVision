@@ -193,13 +193,13 @@
 					<value>	0.0000	</value>
 				</ripplesIntensity>
 				<uiBrightnessMultiplier>
-					<value>	0.4000	</value>
+					<value>	1.0000	</value>
 				</uiBrightnessMultiplier>
 				<tracerAmbientMultiplier>
-					<value>	2.1500	</value>
+					<value>	0.2500	</value>
 				</tracerAmbientMultiplier>
 				<tracerSunMultiplier>
-					<value>	0.5500	</value>
+					<value>	0.0990	</value>
 				</tracerSunMultiplier>
 				<tracerSmokeTint>
 					<value>	0.5593 0.5641 0.5637 1.0000	</value>
@@ -214,34 +214,34 @@
 						<value>	0.1700 0.1292 0.1414 0.0000	</value>
 					</fogColor>
 					<fogDensity>
-						<value>	0.0018	</value>
+						<value>	0.0020	</value>
 					</fogDensity>
 					<fogDensityNoBinocularMult>
 						<value>	1.5000	</value>
 					</fogDensityNoBinocularMult>
 					<fogHeight>
-						<value>	8.0000	</value>
+						<value>	15.0000	</value>
 					</fogHeight>
 					<fogHeightFalloff>
-						<value>	0.0310	</value>
+						<value>	0.0350	</value>
 					</fogHeightFalloff>
 					<fogNearDistance>
-						<value>	25.0000	</value>
+						<value>	15.0000	</value>
 					</fogNearDistance>
 					<fogREMFactor>
-						<value>	0.7000	</value>
+						<value>	0.4500	</value>
 					</fogREMFactor>
 					<sunColor>
 						<value>	0.1713 0.1443 0.1262 0.7273	</value>
 					</sunColor>
 					<sunScatterPower>
-						<value>	5.0000	</value>
+						<value>	25.0000	</value>
 					</sunScatterPower>
 					<sunScatterStart>
 						<value>	0.0000	</value>
 					</sunScatterStart>
 					<skyLow>
-						<value>	-0.0100	</value>
+						<value>	0.0000	</value>
 					</skyLow>
 					<skyHigh>
 						<value>	0.2000	</value>
@@ -253,7 +253,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -279,10 +279,10 @@
 						<value>	2	</value>
 					</version>
 					<adaptationSpeed>
-						<value>	100.0000	</value>
+						<value>	107.4400	</value>
 					</adaptationSpeed>
 					<avgLumUpdateInterval>
-						<value>	0.5000	</value>
+						<value>	1.0900	</value>
 					</avgLumUpdateInterval>
 				</settings>
 				<Bloom>
@@ -291,16 +291,16 @@
 							<value>	true	</value>
 						</enabled>
 						<brightThreshold>
-							<value>	3.0000	</value>
+							<value>	3.6100	</value>
 						</brightThreshold>
 						<factor>
-							<value>	1.3000	</value>
+							<value>	1.0000	</value>
 						</factor>
 						<bloomAmount>
-							<value>	0.1500	</value>
+							<value>	0.1000	</value>
 						</bloomAmount>
 						<bloomRadius>
-							<value>	0.6000	</value>
+							<value>	0.5000	</value>
 						</bloomRadius>
 						<bloomTint>
 							<value>	1.4000 0.8176 0.2800	</value>
@@ -310,35 +310,35 @@
 				<Tonemapping>
 					<settings>
 						<eyeDarkLimit>
-							<value>	0.0300	</value>
+							<value>	0.1000	</value>
 						</eyeDarkLimit>
 						<eyeLightLimit>
-							<value>	0.1000	</value>
+							<value>	0.2000	</value>
 						</eyeLightLimit>
 						<middleGray>
-							<value>	0.2100	</value>
+							<value>	0.3780	</value>
 						</middleGray>
 						<gtContrast>
 							<value>	0.7000	</value>
 						</gtContrast>
 						<gtLinearSectionStart>
-							<value>	0.4520	</value>
+							<value>	0.6400	</value>
 						</gtLinearSectionStart>
 						<gtLinearSectionLength>
-							<value>	0.2520	</value>
+							<value>	0.0000	</value>
 						</gtLinearSectionLength>
 						<gtBlack>
-							<value>	1.2500	</value>
+							<value>	1.1000	</value>
 						</gtBlack>
 					</settings>
 				</Tonemapping>
 				<Environment>
 					<settings>
 						<skyLumMultiplier>
-							<value>	0.1500	</value>
+							<value>	0.1220	</value>
 						</skyLumMultiplier>
 						<ambientLumMultiplier>
-							<value>	0.6000	</value>
+							<value>	0.5960	</value>
 						</ambientLumMultiplier>
 						<underwaterSunFactor>
 							<value>	1.0000	</value>
@@ -347,7 +347,7 @@
 							<value>	1.0000	</value>
 						</underwaterAmbientFactor>
 						<hdrMapExposureOffset>
-							<value>	-1.0000	</value>
+							<value>	0.0000	</value>
 						</hdrMapExposureOffset>
 					</settings>
 				</Environment>
@@ -368,7 +368,7 @@
 				<PbsExtras>
 					<settings>
 						<microShadowsIntensity>
-							<value>	0.6000	</value>
+							<value>	0.9500	</value>
 						</microShadowsIntensity>
 						<microShadowsIntensityShips>
 							<value>	0.3000	</value>
@@ -389,16 +389,16 @@
 							<value>	0.0000	</value>
 						</pmremSupressByShadow>
 						<overallWetness>
-							<value>	0.1100	</value>
+							<value>	0.0000	</value>
 						</overallWetness>
 						<wetnessColor>
 							<value>	0.1053 0.0481 0.0000 1.0000	</value>
 						</wetnessColor>
 						<coastlineHeight>
-							<value>	-0.0100	</value>
+							<value>	0.0000	</value>
 						</coastlineHeight>
 						<coastlineFalloff>
-							<value>	0.1570	</value>
+							<value>	0.1000	</value>
 						</coastlineFalloff>
 						<lakeSpecularIntensity>
 							<value>	0.7000	</value>
@@ -448,20 +448,20 @@
 				<FilmGrain>
 					<settings>
 						<darkZonesMaxLuminance>
-							<value>	0.1500	</value>
+							<value>	0.1000	</value>
 						</darkZonesMaxLuminance>
 						<darkZonesIntensity>
-							<value>	0.1700	</value>
+							<value>	0.0000	</value>
 						</darkZonesIntensity>
 						<lightZonesIntensity>
-							<value>	0.1100	</value>
+							<value>	0.0000	</value>
 						</lightZonesIntensity>
 					</settings>
 				</FilmGrain>
 				<ChromaticAberration>
 					<settings>
 						<intensity>
-							<value>	0.0200	</value>
+							<value>	0.0110	</value>
 						</intensity>
 						<innerRadius>
 							<value>	0.3500	</value>
@@ -474,16 +474,16 @@
 							<value>	0	</value>
 						</maxLogLuminance>
 						<shadowsMaxRelLuminance>
-							<value>	0.3000	</value>
+							<value>	0.0900	</value>
 						</shadowsMaxRelLuminance>
 						<highlightsMinRelLuminance>
-							<value>	0.0300	</value>
+							<value>	0.5000	</value>
 						</highlightsMinRelLuminance>
 						<colorSaturationGlobal>
-							<value>	0.1000	</value>
+							<value>	0.0000	</value>
 						</colorSaturationGlobal>
 						<colorContrastGlobal>
-							<value>	1.0000	</value>
+							<value>	0.8000	</value>
 						</colorContrastGlobal>
 						<colorGainGlobal>
 							<value>	1.0000 1.0000 1.0000	</value>
@@ -492,10 +492,10 @@
 							<value>	0.0000 0.0000 0.0000	</value>
 						</colorOffsetGlobal>
 						<colorSaturationShadows>
-							<value>	0.1500	</value>
+							<value>	0.0000	</value>
 						</colorSaturationShadows>
 						<colorContrastShadows>
-							<value>	0.9000	</value>
+							<value>	1.0000	</value>
 						</colorContrastShadows>
 						<colorGainShadows>
 							<value>	0.7125 0.8005 0.9500	</value>
@@ -504,7 +504,7 @@
 							<value>	0.0007 0.0025 0.0050	</value>
 						</colorOffsetShadows>
 						<colorSaturationMidtones>
-							<value>	0.1500	</value>
+							<value>	0.0000	</value>
 						</colorSaturationMidtones>
 						<colorContrastMidtones>
 							<value>	1.0000	</value>
@@ -528,13 +528,13 @@
 							<value>	0.0000 0.0000 0.0000	</value>
 						</colorOffsetHighlights>
 						<highlightsExposureOffset>
-							<value>	1.0000	</value>
+							<value>	0.0000	</value>
 						</highlightsExposureOffset>
 						<highlightsExposureOffsetMinLum>
-							<value>	0.0000	</value>
+							<value>	0.9000	</value>
 						</highlightsExposureOffsetMinLum>
 						<highlightsExposureOffsetMaxLum>
-							<value>	8.0000	</value>
+							<value>	2.0000	</value>
 						</highlightsExposureOffsetMaxLum>
 					</settings>
 				</ColorGrading>
@@ -568,25 +568,25 @@
 							<value>	1.0000	</value>
 						</brightSky>
 						<brightSea>
-							<value>	3.0000	</value>
+							<value>	1.0000	</value>
 						</brightSea>
 						<brightShips>
-							<value>	0.6000	</value>
+							<value>	1.0000	</value>
 						</brightShips>
 						<brightObjects>
 							<value>	1.0000	</value>
 						</brightObjects>
 						<brightIntensity>
-							<value>	0.3000	</value>
+							<value>	0.0000	</value>
 						</brightIntensity>
 						<fadeOnEffect>
 							<value>	true	</value>
 						</fadeOnEffect>
 						<glareScale>
-							<value>	0.2000	</value>
+							<value>	0.5000	</value>
 						</glareScale>
 						<glareIntensity>
-							<value>	0.1000	</value>
+							<value>	0.2000	</value>
 						</glareIntensity>
 						<glareRayScale>
 							<value>	0.9000 0.8000 1.0000	</value>
@@ -595,22 +595,22 @@
 							<value>	0.5240 1.5710 2.6180	</value>
 						</glareRayAngle>
 						<ghostCount>
-							<value>	3	</value>
+							<value>	8	</value>
 						</ghostCount>
 						<ghostDispersal>
-							<value>	0.3000	</value>
+							<value>	0.8820	</value>
 						</ghostDispersal>
 						<ghostIntensity>
-							<value>	0.0300	</value>
+							<value>	0.0400	</value>
 						</ghostIntensity>
 						<haloWidth>
-							<value>	0.2000	</value>
+							<value>	0.2110	</value>
 						</haloWidth>
 						<haloIntensity>
-							<value>	0.0300	</value>
+							<value>	0.0400	</value>
 						</haloIntensity>
 						<chromaticDistortion>
-							<value>	0.0100	</value>
+							<value>	0.0270	</value>
 						</chromaticDistortion>
 						<dirtIntensity>
 							<value>	1.0000	</value>
@@ -619,22 +619,22 @@
 							<value>	1.0000	</value>
 						</starIntensity>
 						<sunCoronaOpacity>
-							<value>	0.0000	</value>
+							<value>	1.0000	</value>
 						</sunCoronaOpacity>
 						<sunCoronaBrightness>
-							<value>	3.0000	</value>
+							<value>	1.8290	</value>
 						</sunCoronaBrightness>
 						<sunCoronaScale>
-							<value>	9.0000	</value>
+							<value>	1.9190	</value>
 						</sunCoronaScale>
 						<sunCoronaRotSpeed>
-							<value>	2.0000	</value>
+							<value>	0.0000	</value>
 						</sunCoronaRotSpeed>
 						<sunFadeOutDist>
 							<value>	0.0000	</value>
 						</sunFadeOutDist>
 						<sunOcclusionRadiusCoef>
-							<value>	1.0000	</value>
+							<value>	0.2300	</value>
 						</sunOcclusionRadiusCoef>
 					</settings>
 				</LensFlare>
@@ -644,10 +644,10 @@
 							<value>	true	</value>
 						</maskScreenSpace>
 						<lightShaftsIntensity>
-							<value>	0.0000	</value>
+							<value>	0.4570	</value>
 						</lightShaftsIntensity>
 						<lightShaftsUnderwaterIntensity>
-							<value>	0.0000	</value>
+							<value>	1.0000	</value>
 						</lightShaftsUnderwaterIntensity>
 						<lightShaftsTintColor>
 							<value>	0.8510 0.5843 0.3137	</value>
@@ -656,28 +656,28 @@
 							<value>	1.0000 1.0000 1.0000	</value>
 						</lightShaftsUnderwaterTintColor>
 						<fadeStart>
-							<value>	0.8500	</value>
+							<value>	1.8500	</value>
 						</fadeStart>
 						<fadeEnd>
-							<value>	1.6000	</value>
+							<value>	9.1380	</value>
 						</fadeEnd>
 						<fadePow>
-							<value>	10.0000	</value>
+							<value>	3.1540	</value>
 						</fadePow>
 						<decay>
-							<value>	0.9000	</value>
+							<value>	0.9040	</value>
 						</decay>
 						<density>
 							<value>	1.0000	</value>
 						</density>
 						<jitterAmount>
-							<value>	1.0000	</value>
+							<value>	1.3090	</value>
 						</jitterAmount>
 						<blurIntensity>
-							<value>	0.0000	</value>
+							<value>	0.1420	</value>
 						</blurIntensity>
 						<sunLightPow>
-							<value>	100.0000	</value>
+							<value>	234.1190	</value>
 						</sunLightPow>
 						<sunLightPowUnderwater>
 							<value>	30.0000	</value>
@@ -686,10 +686,10 @@
 							<value>	1	</value>
 						</quality>
 						<passCount>
-							<value>	2	</value>
+							<value>	3	</value>
 						</passCount>
 						<scaleDensity>
-							<value>	0.5000	</value>
+							<value>	0.6550	</value>
 						</scaleDensity>
 						<disableDecayRestPass>
 							<value>	true	</value>
@@ -708,10 +708,10 @@
 				<Foam>
 					<settings>
 						<waveFoamFadeRate>
-							<value>	0.7000	</value>
+							<value>	0.6500	</value>
 						</waveFoamFadeRate>
 						<waveFoamCoverage>
-							<value>	0.3550	</value>
+							<value>	0.3800	</value>
 						</waveFoamCoverage>
 						<waveFoamHats>
 							<value>	1.0000	</value>
@@ -720,34 +720,34 @@
 							<value>	1.0000	</value>
 						</foamTextureScale>
 						<shoreFadeFactor>
-							<value>	0.1500	</value>
+							<value>	0.8000	</value>
 						</shoreFadeFactor>
 						<foamFadeFactor>
-							<value>	0.8500	</value>
+							<value>	1.0000	</value>
 						</foamFadeFactor>
 						<deformFoamMult>
-							<value>	0.8500	</value>
+							<value>	0.2000	</value>
 						</deformFoamMult>
 						<deformFoamDisplaceMult>
-							<value>	0.0075	</value>
+							<value>	0.0100	</value>
 						</deformFoamDisplaceMult>
 						<foamSurfaceRampMin>
 							<value>	0.5000	</value>
 						</foamSurfaceRampMin>
 						<foamSubSurfDepth>
-							<value>	0.5000	</value>
+							<value>	0.2500	</value>
 						</foamSubSurfDepth>
 						<deformFoamDeepSubSurfMult>
-							<value>	0.5500	</value>
+							<value>	0.4000	</value>
 						</deformFoamDeepSubSurfMult>
 						<foamDeepSubSurfMult>
-							<value>	0.9100	</value>
+							<value>	1.0000	</value>
 						</foamDeepSubSurfMult>
 						<foamDeepSubSurfRamp>
 							<value>	0.0000 1.0000	</value>
 						</foamDeepSubSurfRamp>
 						<foamSubSurfMult>
-							<value>	0.4000	</value>
+							<value>	0.5000	</value>
 						</foamSubSurfMult>
 						<foamSubSurfRamp>
 							<value>	0.6200 1.0000	</value>
@@ -759,7 +759,7 @@
 							<value>	0.1000 0.4000	</value>
 						</foamSplashRamp>
 						<foamVfxAmount>
-							<value>	0.6000	</value>
+							<value>	0.9000	</value>
 						</foamVfxAmount>
 						<foamVfxLifeTime>
 							<value>	1.0000 1.5000	</value>
@@ -784,46 +784,46 @@
 				<Optics>
 					<settings>
 						<refrDistortion>
-							<value>	0.2000	</value>
+							<value>	0.1390	</value>
 						</refrDistortion>
 						<waveSharpFactor>
-							<value>	0.2000	</value>
+							<value>	0.0000	</value>
 						</waveSharpFactor>
 						<refrTotalFactor>
-							<value>	0.9000	</value>
+							<value>	1.0000	</value>
 						</refrTotalFactor>
 						<reflectionScaleFOV>
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
-							<value>	-0.1000	</value>
+							<value>	-0.1200	</value>
 						</subSurfaceThicknessMinSun>
 						<subSurfaceThicknessMaxSun>
-							<value>	1.0000	</value>
+							<value>	0.8500	</value>
 						</subSurfaceThicknessMaxSun>
 						<subSurfaceBrightnessSun>
-							<value>	0.5000	</value>
+							<value>	0.4000	</value>
 						</subSurfaceBrightnessSun>
 						<subSurfaceSunFalloff>
-							<value>	5.0000	</value>
+							<value>	2.0000	</value>
 						</subSurfaceSunFalloff>
 						<subSurfaceThicknessMinEnv>
 							<value>	-0.1500	</value>
 						</subSurfaceThicknessMinEnv>
 						<subSurfaceThicknessMaxEnv>
-							<value>	2.0000	</value>
+							<value>	0.5000	</value>
 						</subSurfaceThicknessMaxEnv>
 						<subSurfaceBrightnessEnv>
-							<value>	2.5000	</value>
+							<value>	0.5000	</value>
 						</subSurfaceBrightnessEnv>
 						<subSurfaceColor>
 							<value>	0.2275 0.6500 0.5232 1.0000	</value>
 						</subSurfaceColor>
 						<subSurfaceNormalSmoothness>
-							<value>	0.3500	</value>
+							<value>	0.0000	</value>
 						</subSurfaceNormalSmoothness>
 						<turbidColor>
 							<value>	0.0600 0.2496 0.3000 1.0000	</value>
@@ -832,43 +832,43 @@
 							<value>	0.0250 0.0550 0.1000 1.0000	</value>
 						</turbidColor2>
 						<turbidColor2Amount>
-							<value>	1.0000	</value>
+							<value>	0.0000	</value>
 						</turbidColor2Amount>
 						<turbidGlobalBrightness>
-							<value>	0.3500	</value>
+							<value>	1.0000	</value>
 						</turbidGlobalBrightness>
 						<turbidSecondComponentPow>
 							<value>	8.0000	</value>
 						</turbidSecondComponentPow>
 						<turbidLocalBrightness>
-							<value>	0.0030	</value>
+							<value>	1.0000	</value>
 						</turbidLocalBrightness>
 						<rgbAbsorption>
 							<value>	1.2000 2.2500 2.3000 0.0100	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0050	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
-							<value>	0.8500	</value>
+							<value>	0.6000	</value>
 						</sunGlitterGlossiness>
 						<reflectionShadowIntensity>
-							<value>	0.4500	</value>
+							<value>	1.0000	</value>
 						</reflectionShadowIntensity>
 						<reflectionMapSpecIntensity>
-							<value>	0.7500	</value>
+							<value>	0.6000	</value>
 						</reflectionMapSpecIntensity>
 						<reflectionMapSpecRoughness>
-							<value>	0.6700	</value>
+							<value>	1.0000	</value>
 						</reflectionMapSpecRoughness>
 						<reflectionMapSpecSharpness>
-							<value>	0.3000	</value>
+							<value>	0.0000	</value>
 						</reflectionMapSpecSharpness>
 						<momentsFresnelInfluence>
-							<value>	0.7000	</value>
+							<value>	1.0000	</value>
 						</momentsFresnelInfluence>
 						<momentsFresnelInfluenceStartDist>
-							<value>	32.7000	</value>
+							<value>	0.0000	</value>
 						</momentsFresnelInfluenceStartDist>
 					</settings>
 				</Optics>
@@ -881,7 +881,7 @@
 							<value>	0.1800 0.4000 0.3917 1.0000	</value>
 						</REMMultColor>
 						<REMMultColorFactor>
-							<value>	0.5700	</value>
+							<value>	0.0000	</value>
 						</REMMultColorFactor>
 						<directionalLightInscattering>
 							<value>	0.0000 0.5357 0.3750 1.0000	</value>
@@ -890,34 +890,34 @@
 							<value>	1.0000	</value>
 						</directionalLightInscatteringIntensity>
 						<directionalLightInscatteringExp>
-							<value>	2.0000	</value>
+							<value>	1.0000	</value>
 						</directionalLightInscatteringExp>
 						<turbidGlobalBrightness>
 							<value>	1.0000	</value>
 						</turbidGlobalBrightness>
 						<sunRefractionIndex>
-							<value>	0.7000	</value>
+							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.3000	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
-							<value>	0.4000	</value>
+							<value>	0.6000	</value>
 						</sunGlitterGlossiness>
 						<refractionBrightness>
-							<value>	1.0000	</value>
+							<value>	4.0000	</value>
 						</refractionBrightness>
 						<refractionDistortion>
-							<value>	0.4000	</value>
+							<value>	0.3000	</value>
 						</refractionDistortion>
 						<absorbtionBase>
-							<value>	0.3500	</value>
+							<value>	0.1200	</value>
 						</absorbtionBase>
 						<lightAbsorbtionScale>
-							<value>	0.2000	</value>
+							<value>	1.0000	</value>
 						</lightAbsorbtionScale>
 						<depthAbsorbtionScale>
-							<value>	0.1000	</value>
+							<value>	0.0000	</value>
 						</depthAbsorbtionScale>
 						<waterScatteringSkyFactor>
 							<value>	0.0100	</value>
@@ -932,7 +932,7 @@
 							<value>	1.2000	</value>
 						</underwaterRefractionIndex>
 						<shaftsAmount>
-							<value>	0.0090	</value>
+							<value>	0.0150	</value>
 						</shaftsAmount>
 						<shaftsAmountSecondary>
 							<value>	0.3000	</value>
@@ -941,31 +941,31 @@
 							<value>	0.0000 0.8000 1.0000 0.0000	</value>
 						</shaftsSecondaryColor>
 						<shaftsDepthFading>
-							<value>	15.0000	</value>
+							<value>	2.0000	</value>
 						</shaftsDepthFading>
 						<causticsIntensity>
-							<value>	0.2000	</value>
+							<value>	0.0000	</value>
 						</causticsIntensity>
 						<causticsScale>
-							<value>	0.1000	</value>
+							<value>	0.4000	</value>
 						</causticsScale>
 						<causticsAnimSpeed>
-							<value>	0.1000	</value>
+							<value>	0.3000	</value>
 						</causticsAnimSpeed>
 						<causticsDepthFading>
-							<value>	2.8490	</value>
+							<value>	2.0000	</value>
 						</causticsDepthFading>
 						<causticsMoveSpeed>
-							<value>	0.2000	</value>
+							<value>	0.3000	</value>
 						</causticsMoveSpeed>
 						<causticsMaxHeight>
 							<value>	0.0000	</value>
 						</causticsMaxHeight>
 						<underwaterSunYaw>
-							<value>	270.0000	</value>
+							<value>	54.0000	</value>
 						</underwaterSunYaw>
 						<underwaterSunPitch>
-							<value>	25.0000	</value>
+							<value>	23.0300	</value>
 						</underwaterSunPitch>
 					</settings>
 				</Underwater>
@@ -984,28 +984,28 @@
 							<value>	2.0000	</value>
 						</UVWarpingFrequency>
 						<gravity>
-							<value>	9.8330	</value>
+							<value>	9.8100	</value>
 						</gravity>
 						<depth>
 							<value>	100.0000	</value>
 						</depth>
 						<windSpeedLargeWave>
-							<value>	9.2020	</value>
+							<value>	2.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2370	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
 						</swellLargeWave>
 						<fetchLargeWave>
-							<value>	306.5680	</value>
+							<value>	300.0000	</value>
 						</fetchLargeWave>
 						<fftPatchSize0>
 							<value>	300.0000	</value>
@@ -1026,31 +1026,31 @@
 							<value>	1.3000	</value>
 						</fftChoppyScale2>
 						<fftWindSpeed0>
-							<value>	1.5670	</value>
+							<value>	1.5000	</value>
 						</fftWindSpeed0>
 						<fftWindSpeed1>
-							<value>	1.5630	</value>
+							<value>	2.0000	</value>
 						</fftWindSpeed1>
 						<fftWindSpeed2>
-							<value>	15.3950	</value>
+							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5170	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	0.4170	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
 							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -1059,7 +1059,7 @@
 							<value>	0.5000	</value>
 						</fftSpreadBlendWave1>
 						<fftSpreadBlendWave2>
-							<value>	0.5060	</value>
+							<value>	0.5000	</value>
 						</fftSpreadBlendWave2>
 						<fftSwellWave0>
 							<value>	0.2000	</value>
@@ -1074,25 +1074,25 @@
 							<value>	300.0000	</value>
 						</fftFetchWave0>
 						<fftFetchWave1>
-							<value>	20.4900	</value>
+							<value>	100.0000	</value>
 						</fftFetchWave1>
 						<fftFetchWave2>
-							<value>	77.1280	</value>
+							<value>	100.0000	</value>
 						</fftFetchWave2>
 						<simpleWavesWindAngle>
-							<value>	60.0000	</value>
+							<value>	360.0000	</value>
 						</simpleWavesWindAngle>
 						<wavesWindAngles>
 							<value>	0.0000 0.0000 0.0000 0.0000	</value>
 						</wavesWindAngles>
 						<variationMapOffset>
-							<value>	0.0630	</value>
+							<value>	0.4700	</value>
 						</variationMapOffset>
 						<variationMapPower>
-							<value>	0.8170	</value>
+							<value>	3.7100	</value>
 						</variationMapPower>
 						<variationMapThreshold>
-							<value>	0.4800	</value>
+							<value>	0.6900	</value>
 						</variationMapThreshold>
 						<variationMapScale>
 							<value>	1.0000	</value>
@@ -1101,7 +1101,7 @@
 							<value>	0.1000	</value>
 						</variationMapMinWave2Val>
 						<variationMapThresholdSmooth>
-							<value>	0.4470	</value>
+							<value>	0.5000	</value>
 						</variationMapThresholdSmooth>
 					</settings>
 				</Simulation>
@@ -1111,7 +1111,7 @@
 							<value>	0.8000	</value>
 						</waveLength>
 						<waveLengthFoam>
-							<value>	3.5999	</value>
+							<value>	3.5000	</value>
 						</waveLengthFoam>
 						<maxWindDir>
 							<value>	1.0000	</value>
@@ -1123,16 +1123,16 @@
 							<value>	0.3000	</value>
 						</foamWaveDeformAmplitude>
 						<foamWaveIntensity>
-							<value>	0.2667	</value>
+							<value>	1.0000	</value>
 						</foamWaveIntensity>
 						<foamWaveAddDensity>
-							<value>	0.2000	</value>
+							<value>	0.0000	</value>
 						</foamWaveAddDensity>
 						<waveParallelness>
-							<value>	0.2600	</value>
+							<value>	0.1500	</value>
 						</waveParallelness>
 						<waveSpeed>
-							<value>	1.5338	</value>
+							<value>	1.0000	</value>
 						</waveSpeed>
 						<foamWaveSpeedMult>
 							<value>	0.6000	</value>
@@ -1154,10 +1154,10 @@
 				<Sun>
 					<settings>
 						<yaw>
-							<value>	270.0000	</value>
+							<value>	54.0000	</value>
 						</yaw>
 						<pitch>
-							<value>	25.0000	</value>
+							<value>	23.0300	</value>
 						</pitch>
 						<color>
 							<value>	1.0000 0.4890 0.3000 1.0000	</value>
@@ -1170,13 +1170,13 @@
 							<value>	content/location/sun/sun_1_alpha_a.dds	</value>
 						</sunTexture>
 						<sunDiskSize>
-							<value>	1.0000	</value>
+							<value>	2.0000	</value>
 						</sunDiskSize>
 						<sunDiskColor>
 							<value>	0.9400 0.9259 0.9212 1.0000	</value>
 						</sunDiskColor>
 						<sunDiskBrightness>
-							<value>	0.0000	</value>
+							<value>	15.0000	</value>
 						</sunDiskBrightness>
 						<sunDiskOpacity>
 							<value>	0.0000	</value>
@@ -1189,7 +1189,7 @@
 							<value>	content\location\skybox\LK001_moving\LK001_moving.model	</value>
 						</skyDomeModel>
 						<skyDomeYaw>
-							<value>	255.6000	</value>
+							<value>	248.0000	</value>
 						</skyDomeYaw>
 						<skyDomeTexture>
 							<value>	content/location/skybox/textures/22_TDF_HDR006_Cloudy.dds	</value>
@@ -1201,13 +1201,13 @@
 							<value>	0.0100	</value>
 						</parallax>
 						<windYaw>
-							<value>	210.0000	</value>
+							<value>	224.0000	</value>
 						</windYaw>
 						<windScrollDist>
-							<value>	0.1000	</value>
+							<value>	0.0450	</value>
 						</windScrollDist>
 						<windHorizonFactor>
-							<value>	0.0500	</value>
+							<value>	0.1000	</value>
 						</windHorizonFactor>
 						<windHorizonDistancePower>
 							<value>	2.5000	</value>
@@ -1225,16 +1225,16 @@
 							<value>	content/location/skybox/textures/Blendmap_tile.dds	</value>
 						</skyDomeBlendMap>
 						<blendingMapTiling>
-							<value>	10.0000	</value>
+							<value>	0.0000	</value>
 						</blendingMapTiling>
 						<blendingMapWindFactor>
-							<value>	0.2000	</value>
+							<value>	0.0000	</value>
 						</blendingMapWindFactor>
 						<blendingMapFlowFactor>
-							<value>	0.5000	</value>
+							<value>	0.0000	</value>
 						</blendingMapFlowFactor>
 						<blendingMapCycleFrequency>
-							<value>	0.3000	</value>
+							<value>	0.5000	</value>
 						</blendingMapCycleFrequency>
 						<cloudsMaskTexture>
 							<value>	null	</value>
@@ -1252,22 +1252,22 @@
 								<value>	content/location/skybox/textures/cloud_shadows/CloudShadows_Blurred_med_01.dds	</value>
 							</cloudsShadowMapTextureLayer1>
 							<intensityLayer0>
-								<value>	0.5000	</value>
+								<value>	1.0000	</value>
 							</intensityLayer0>
 							<intensityLayer1>
-								<value>	0.5000	</value>
+								<value>	1.0000	</value>
 							</intensityLayer1>
 							<scaleLayer0>
-								<value>	0.5000	</value>
+								<value>	0.3000	</value>
 							</scaleLayer0>
 							<scaleLayer1>
-								<value>	0.7400	</value>
+								<value>	0.3000	</value>
 							</scaleLayer1>
 							<speedCoefficientLayer1>
-								<value>	1.0000	</value>
+								<value>	0.3000	</value>
 							</speedCoefficientLayer1>
 							<yawShiftLayer1>
-								<value>	165.0000	</value>
+								<value>	15.0000	</value>
 							</yawShiftLayer1>
 							<shiftX>
 								<value>	0.0000	</value>
@@ -1282,10 +1282,10 @@
 			<Forest>
 				<settings>
 					<aoAmplification>
-						<value>	1.2000	</value>
+						<value>	1.0000	</value>
 					</aoAmplification>
 					<transmissionAmplification>
-						<value>	0.5950	</value>
+						<value>	1.0000	</value>
 					</transmissionAmplification>
 					<windStrength>
 						<value>	0.2000	</value>
@@ -1294,7 +1294,7 @@
 						<value>	15.0000	</value>
 					</windDirection>
 					<windGustFrequency>
-						<value>	0.0500	</value>
+						<value>	0.0000	</value>
 					</windGustFrequency>
 					<tintMapAOAmplification>
 						<value>	1.0000	</value>
@@ -1366,10 +1366,10 @@
 				<DynamicShadows>
 					<settings>
 						<seaShadowPenumbraSize>
-							<value>	7.0000	</value>
+							<value>	2.0000	</value>
 						</seaShadowPenumbraSize>
 						<opaqueShadowPenumbraSize>
-							<value>	4.0000	</value>
+							<value>	2.0000	</value>
 						</opaqueShadowPenumbraSize>
 						<opaqueShadowContactDistance>
 							<value>	2.0000	</value>
@@ -1659,8 +1659,7 @@
 				</settings>
 			</Volumetrics>
 		</Weather>
-		<Weather
-				user_name="Rain">
+		<Weather user_name="Rain">
 			<settings>
 				<effect>
 					<value>	particles/rain_tropical.xml	</value>
@@ -1675,19 +1674,19 @@
 					<value>	0.0000	</value>
 				</falloutIntensity>
 				<puddlesIntensity>
-					<value>	0.4000	</value>
+					<value>	0.7500	</value>
 				</puddlesIntensity>
 				<ripplesIntensity>
 					<value>	1.0000	</value>
 				</ripplesIntensity>
 				<uiBrightnessMultiplier>
-					<value>	0.3000	</value>
+					<value>	1.0000	</value>
 				</uiBrightnessMultiplier>
 				<tracerAmbientMultiplier>
-					<value>	0.2500	</value>
+					<value>	1.4400	</value>
 				</tracerAmbientMultiplier>
 				<tracerSunMultiplier>
-					<value>	0.3500	</value>
+					<value>	1.5100	</value>
 				</tracerSunMultiplier>
 				<tracerSmokeTint>
 					<value>	0.0140 0.0140 0.0140 1.0000	</value>
@@ -1702,22 +1701,22 @@
 						<value>	0.0325 0.0455 0.0650 1.0000	</value>
 					</fogColor>
 					<fogDensity>
-						<value>	0.0030	</value>
+						<value>	0.0020	</value>
 					</fogDensity>
 					<fogDensityNoBinocularMult>
-						<value>	2.3000	</value>
+						<value>	1.5000	</value>
 					</fogDensityNoBinocularMult>
 					<fogHeight>
 						<value>	15.0000	</value>
 					</fogHeight>
 					<fogHeightFalloff>
-						<value>	0.0510	</value>
+						<value>	0.0350	</value>
 					</fogHeightFalloff>
 					<fogNearDistance>
-						<value>	0.0000	</value>
+						<value>	15.0000	</value>
 					</fogNearDistance>
 					<fogREMFactor>
-						<value>	0.8000	</value>
+						<value>	0.4500	</value>
 					</fogREMFactor>
 					<sunColor>
 						<value>	0.1900 0.1600 0.1400 0.0000	</value>
@@ -1741,7 +1740,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -1779,16 +1778,16 @@
 							<value>	true	</value>
 						</enabled>
 						<brightThreshold>
-							<value>	0.3000	</value>
+							<value>	2.0100	</value>
 						</brightThreshold>
 						<factor>
-							<value>	1.5000	</value>
+							<value>	1.0000	</value>
 						</factor>
 						<bloomAmount>
-							<value>	0.2000	</value>
+							<value>	0.1000	</value>
 						</bloomAmount>
 						<bloomRadius>
-							<value>	0.6000	</value>
+							<value>	0.5000	</value>
 						</bloomRadius>
 						<bloomTint>
 							<value>	1.0000 1.0000 1.0000	</value>
@@ -1798,35 +1797,35 @@
 				<Tonemapping>
 					<settings>
 						<eyeDarkLimit>
-							<value>	0.0500	</value>
+							<value>	0.1500	</value>
 						</eyeDarkLimit>
 						<eyeLightLimit>
-							<value>	0.1000	</value>
+							<value>	0.5000	</value>
 						</eyeLightLimit>
 						<middleGray>
-							<value>	0.1800	</value>
+							<value>	0.3100	</value>
 						</middleGray>
 						<gtContrast>
-							<value>	0.8530	</value>
+							<value>	0.7000	</value>
 						</gtContrast>
 						<gtLinearSectionStart>
-							<value>	0.3700	</value>
+							<value>	0.6400	</value>
 						</gtLinearSectionStart>
 						<gtLinearSectionLength>
-							<value>	0.2500	</value>
+							<value>	0.0000	</value>
 						</gtLinearSectionLength>
 						<gtBlack>
-							<value>	1.1300	</value>
+							<value>	1.1000	</value>
 						</gtBlack>
 					</settings>
 				</Tonemapping>
 				<Environment>
 					<settings>
 						<skyLumMultiplier>
-							<value>	0.1200	</value>
+							<value>	0.0900	</value>
 						</skyLumMultiplier>
 						<ambientLumMultiplier>
-							<value>	0.4000	</value>
+							<value>	0.8100	</value>
 						</ambientLumMultiplier>
 						<underwaterSunFactor>
 							<value>	1.0000	</value>
@@ -1835,7 +1834,7 @@
 							<value>	1.0000	</value>
 						</underwaterAmbientFactor>
 						<hdrMapExposureOffset>
-							<value>	-1.0000	</value>
+							<value>	0.0000	</value>
 						</hdrMapExposureOffset>
 					</settings>
 				</Environment>
@@ -1856,37 +1855,37 @@
 				<PbsExtras>
 					<settings>
 						<microShadowsIntensity>
-							<value>	1.0000	</value>
+							<value>	0.9500	</value>
 						</microShadowsIntensity>
 						<microShadowsIntensityShips>
 							<value>	0.3000	</value>
 						</microShadowsIntensityShips>
 						<aoPower>
-							<value>	2.3170	</value>
+							<value>	1.0000	</value>
 						</aoPower>
 						<soPower>
 							<value>	1.0000	</value>
 						</soPower>
 						<aoAdditionalPowerForNonShips>
-							<value>	2.5000	</value>
+							<value>	2.2000	</value>
 						</aoAdditionalPowerForNonShips>
 						<specularMult>
-							<value>	0.1500	</value>
+							<value>	1.0000	</value>
 						</specularMult>
 						<pmremSupressByShadow>
 							<value>	0.0000	</value>
 						</pmremSupressByShadow>
 						<overallWetness>
-							<value>	0.4970	</value>
+							<value>	0.0000	</value>
 						</overallWetness>
 						<wetnessColor>
 							<value>	0.0000 0.0000 0.0000 0.0000	</value>
 						</wetnessColor>
 						<coastlineHeight>
-							<value>	0.0600	</value>
+							<value>	0.0000	</value>
 						</coastlineHeight>
 						<coastlineFalloff>
-							<value>	0.3560	</value>
+							<value>	0.1000	</value>
 						</coastlineFalloff>
 						<lakeSpecularIntensity>
 							<value>	0.7000	</value>
@@ -1936,13 +1935,13 @@
 				<FilmGrain>
 					<settings>
 						<darkZonesMaxLuminance>
-							<value>	0.1500	</value>
+							<value>	0.1000	</value>
 						</darkZonesMaxLuminance>
 						<darkZonesIntensity>
-							<value>	0.1700	</value>
+							<value>	0.0000	</value>
 						</darkZonesIntensity>
 						<lightZonesIntensity>
-							<value>	0.1100	</value>
+							<value>	0.0000	</value>
 						</lightZonesIntensity>
 					</settings>
 				</FilmGrain>
@@ -1962,10 +1961,10 @@
 							<value>	0	</value>
 						</maxLogLuminance>
 						<shadowsMaxRelLuminance>
-							<value>	0.1000	</value>
+							<value>	0.0900	</value>
 						</shadowsMaxRelLuminance>
 						<highlightsMinRelLuminance>
-							<value>	0.0000	</value>
+							<value>	0.5000	</value>
 						</highlightsMinRelLuminance>
 						<colorSaturationGlobal>
 							<value>	0.0000	</value>
@@ -1980,10 +1979,10 @@
 							<value>	0.0000 0.0000 0.0000	</value>
 						</colorOffsetGlobal>
 						<colorSaturationShadows>
-							<value>	0.1500	</value>
+							<value>	0.0000	</value>
 						</colorSaturationShadows>
 						<colorContrastShadows>
-							<value>	1.0000	</value>
+							<value>	0.7000	</value>
 						</colorContrastShadows>
 						<colorGainShadows>
 							<value>	1.0000 1.0000 1.0000	</value>
@@ -2019,7 +2018,7 @@
 							<value>	0.0000	</value>
 						</highlightsExposureOffset>
 						<highlightsExposureOffsetMinLum>
-							<value>	0.0000	</value>
+							<value>	0.9000	</value>
 						</highlightsExposureOffsetMinLum>
 						<highlightsExposureOffsetMaxLum>
 							<value>	2.0000	</value>
@@ -2056,7 +2055,7 @@
 							<value>	1.0000	</value>
 						</brightSky>
 						<brightSea>
-							<value>	0.2000	</value>
+							<value>	5.0000	</value>
 						</brightSea>
 						<brightShips>
 							<value>	1.0000	</value>
@@ -2065,16 +2064,16 @@
 							<value>	1.0000	</value>
 						</brightObjects>
 						<brightIntensity>
-							<value>	0.0000	</value>
+							<value>	0.0010	</value>
 						</brightIntensity>
 						<fadeOnEffect>
 							<value>	true	</value>
 						</fadeOnEffect>
 						<glareScale>
-							<value>	0.1000	</value>
+							<value>	0.5000	</value>
 						</glareScale>
 						<glareIntensity>
-							<value>	0.1000	</value>
+							<value>	0.2000	</value>
 						</glareIntensity>
 						<glareRayScale>
 							<value>	0.9000 0.8000 1.0000	</value>
@@ -2086,19 +2085,19 @@
 							<value>	8	</value>
 						</ghostCount>
 						<ghostDispersal>
-							<value>	0.6500	</value>
+							<value>	0.8820	</value>
 						</ghostDispersal>
 						<ghostIntensity>
-							<value>	0.0200	</value>
+							<value>	0.0400	</value>
 						</ghostIntensity>
 						<haloWidth>
-							<value>	0.2000	</value>
+							<value>	0.2110	</value>
 						</haloWidth>
 						<haloIntensity>
-							<value>	0.0200	</value>
+							<value>	0.0400	</value>
 						</haloIntensity>
 						<chromaticDistortion>
-							<value>	0.0100	</value>
+							<value>	0.0270	</value>
 						</chromaticDistortion>
 						<dirtIntensity>
 							<value>	1.0000	</value>
@@ -2110,19 +2109,19 @@
 							<value>	0.0000	</value>
 						</sunCoronaOpacity>
 						<sunCoronaBrightness>
-							<value>	0.0000	</value>
+							<value>	6.0660	</value>
 						</sunCoronaBrightness>
 						<sunCoronaScale>
-							<value>	10.0000	</value>
+							<value>	1.0000	</value>
 						</sunCoronaScale>
 						<sunCoronaRotSpeed>
-							<value>	2.0000	</value>
+							<value>	0.0000	</value>
 						</sunCoronaRotSpeed>
 						<sunFadeOutDist>
 							<value>	0.0000	</value>
 						</sunFadeOutDist>
 						<sunOcclusionRadiusCoef>
-							<value>	1.0000	</value>
+							<value>	0.2300	</value>
 						</sunOcclusionRadiusCoef>
 					</settings>
 				</LensFlare>
@@ -2144,40 +2143,40 @@
 							<value>	1.0000 1.0000 1.0000	</value>
 						</lightShaftsUnderwaterTintColor>
 						<fadeStart>
-							<value>	0.8000	</value>
+							<value>	1.8500	</value>
 						</fadeStart>
 						<fadeEnd>
-							<value>	10.0000	</value>
+							<value>	9.1380	</value>
 						</fadeEnd>
 						<fadePow>
-							<value>	10.0000	</value>
+							<value>	3.1540	</value>
 						</fadePow>
 						<decay>
-							<value>	0.9700	</value>
+							<value>	0.9040	</value>
 						</decay>
 						<density>
-							<value>	0.8500	</value>
+							<value>	1.0000	</value>
 						</density>
 						<jitterAmount>
-							<value>	1.0000	</value>
+							<value>	1.3090	</value>
 						</jitterAmount>
 						<blurIntensity>
-							<value>	1.5000	</value>
+							<value>	0.1420	</value>
 						</blurIntensity>
 						<sunLightPow>
-							<value>	35.0000	</value>
+							<value>	234.1190	</value>
 						</sunLightPow>
 						<sunLightPowUnderwater>
 							<value>	30.0000	</value>
 						</sunLightPowUnderwater>
 						<quality>
-							<value>	2	</value>
+							<value>	1	</value>
 						</quality>
 						<passCount>
-							<value>	4	</value>
+							<value>	3	</value>
 						</passCount>
 						<scaleDensity>
-							<value>	0.6490	</value>
+							<value>	0.6550	</value>
 						</scaleDensity>
 						<disableDecayRestPass>
 							<value>	true	</value>
@@ -2199,7 +2198,7 @@
 							<value>	0.6500	</value>
 						</waveFoamFadeRate>
 						<waveFoamCoverage>
-							<value>	0.3550	</value>
+							<value>	0.3630	</value>
 						</waveFoamCoverage>
 						<waveFoamHats>
 							<value>	1.0000	</value>
@@ -2217,7 +2216,7 @@
 							<value>	1.0000	</value>
 						</deformFoamMult>
 						<deformFoamDisplaceMult>
-							<value>	0.0075	</value>
+							<value>	0.0100	</value>
 						</deformFoamDisplaceMult>
 						<foamSurfaceRampMin>
 							<value>	0.5000	</value>
@@ -2226,10 +2225,10 @@
 							<value>	1.0000	</value>
 						</foamSubSurfDepth>
 						<deformFoamDeepSubSurfMult>
-							<value>	0.5500	</value>
+							<value>	0.7500	</value>
 						</deformFoamDeepSubSurfMult>
 						<foamDeepSubSurfMult>
-							<value>	2.1500	</value>
+							<value>	1.5000	</value>
 						</foamDeepSubSurfMult>
 						<foamDeepSubSurfRamp>
 							<value>	0.5500 1.2500	</value>
@@ -2247,71 +2246,71 @@
 							<value>	0.0500 0.3500	</value>
 						</foamSplashRamp>
 						<foamVfxAmount>
-							<value>	0.7000	</value>
+							<value>	0.9000	</value>
 						</foamVfxAmount>
 						<foamVfxLifeTime>
 							<value>	1.0000 1.5000	</value>
 						</foamVfxLifeTime>
 						<foamVfxWind>
-							<value>	0.6000	</value>
+							<value>	0.1400	</value>
 						</foamVfxWind>
 						<foamVfxCurl>
-							<value>	2.0000	</value>
+							<value>	0.6000	</value>
 						</foamVfxCurl>
 						<foamVfxEmitForceMult>
-							<value>	1.0000	</value>
+							<value>	0.0000	</value>
 						</foamVfxEmitForceMult>
 						<foamVfxGravity>
-							<value>	0.2800	</value>
+							<value>	0.5000	</value>
 						</foamVfxGravity>
 						<foamVfxAlpha>
-							<value>	0.3500	</value>
+							<value>	0.2000	</value>
 						</foamVfxAlpha>
 					</settings>
 				</Foam>
 				<Optics>
 					<settings>
 						<refrDistortion>
-							<value>	0.1540	</value>
+							<value>	0.1390	</value>
 						</refrDistortion>
 						<waveSharpFactor>
-							<value>	0.5130	</value>
+							<value>	0.2000	</value>
 						</waveSharpFactor>
 						<refrTotalFactor>
-							<value>	0.4630	</value>
+							<value>	1.0000	</value>
 						</refrTotalFactor>
 						<reflectionScaleFOV>
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	2.1980	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
-							<value>	-0.2330	</value>
+							<value>	-0.1200	</value>
 						</subSurfaceThicknessMinSun>
 						<subSurfaceThicknessMaxSun>
-							<value>	1.0000	</value>
+							<value>	0.7000	</value>
 						</subSurfaceThicknessMaxSun>
 						<subSurfaceBrightnessSun>
-							<value>	0.8330	</value>
+							<value>	0.4000	</value>
 						</subSurfaceBrightnessSun>
 						<subSurfaceSunFalloff>
-							<value>	4.4000	</value>
+							<value>	2.0000	</value>
 						</subSurfaceSunFalloff>
 						<subSurfaceThicknessMinEnv>
-							<value>	-0.1670	</value>
+							<value>	-0.1500	</value>
 						</subSurfaceThicknessMinEnv>
 						<subSurfaceThicknessMaxEnv>
-							<value>	1.0000	</value>
+							<value>	0.5000	</value>
 						</subSurfaceThicknessMaxEnv>
 						<subSurfaceBrightnessEnv>
-							<value>	2.2000	</value>
+							<value>	0.0000	</value>
 						</subSurfaceBrightnessEnv>
 						<subSurfaceColor>
 							<value>	0.3608 0.6014 0.4571 1.0000	</value>
 						</subSurfaceColor>
 						<subSurfaceNormalSmoothness>
-							<value>	0.3000	</value>
+							<value>	0.0000	</value>
 						</subSurfaceNormalSmoothness>
 						<turbidColor>
 							<value>	0.0500 0.1600 0.2500 1.0000	</value>
@@ -2323,40 +2322,40 @@
 							<value>	0.0000	</value>
 						</turbidColor2Amount>
 						<turbidGlobalBrightness>
-							<value>	0.5000	</value>
+							<value>	0.1000	</value>
 						</turbidGlobalBrightness>
 						<turbidSecondComponentPow>
-							<value>	3.0000	</value>
+							<value>	8.0000	</value>
 						</turbidSecondComponentPow>
 						<turbidLocalBrightness>
-							<value>	0.0400	</value>
+							<value>	0.0150	</value>
 						</turbidLocalBrightness>
 						<rgbAbsorption>
 							<value>	2.0000 2.0000 2.0000 3.0500	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0030	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
-							<value>	0.5000	</value>
+							<value>	0.2750	</value>
 						</sunGlitterGlossiness>
 						<reflectionShadowIntensity>
-							<value>	0.1500	</value>
+							<value>	0.2500	</value>
 						</reflectionShadowIntensity>
 						<reflectionMapSpecIntensity>
-							<value>	0.8000	</value>
+							<value>	0.6330	</value>
 						</reflectionMapSpecIntensity>
 						<reflectionMapSpecRoughness>
-							<value>	0.2000	</value>
+							<value>	0.3000	</value>
 						</reflectionMapSpecRoughness>
 						<reflectionMapSpecSharpness>
 							<value>	0.0000	</value>
 						</reflectionMapSpecSharpness>
 						<momentsFresnelInfluence>
-							<value>	0.4000	</value>
+							<value>	0.8100	</value>
 						</momentsFresnelInfluence>
 						<momentsFresnelInfluenceStartDist>
-							<value>	50.0000	</value>
+							<value>	0.0000	</value>
 						</momentsFresnelInfluenceStartDist>
 					</settings>
 				</Optics>
@@ -2369,91 +2368,91 @@
 							<value>	0.1300 0.3380 0.6500 1.0000	</value>
 						</REMMultColor>
 						<REMMultColorFactor>
-							<value>	0.5000	</value>
+							<value>	0.1000	</value>
 						</REMMultColorFactor>
 						<directionalLightInscattering>
 							<value>	0.2570 0.5140 0.4369 1.0000	</value>
 						</directionalLightInscattering>
 						<directionalLightInscatteringIntensity>
-							<value>	2.0000	</value>
+							<value>	1.0000	</value>
 						</directionalLightInscatteringIntensity>
 						<directionalLightInscatteringExp>
-							<value>	3.0000	</value>
+							<value>	6.0600	</value>
 						</directionalLightInscatteringExp>
 						<turbidGlobalBrightness>
-							<value>	1.5000	</value>
+							<value>	0.9000	</value>
 						</turbidGlobalBrightness>
 						<sunRefractionIndex>
-							<value>	0.7420	</value>
+							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.6070	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
-							<value>	0.5270	</value>
+							<value>	0.6000	</value>
 						</sunGlitterGlossiness>
 						<refractionBrightness>
-							<value>	3.9900	</value>
+							<value>	4.0000	</value>
 						</refractionBrightness>
 						<refractionDistortion>
-							<value>	0.3900	</value>
+							<value>	0.3000	</value>
 						</refractionDistortion>
 						<absorbtionBase>
-							<value>	0.0710	</value>
+							<value>	0.1200	</value>
 						</absorbtionBase>
 						<lightAbsorbtionScale>
-							<value>	0.4960	</value>
+							<value>	1.0000	</value>
 						</lightAbsorbtionScale>
 						<depthAbsorbtionScale>
-							<value>	0.1040	</value>
+							<value>	0.0000	</value>
 						</depthAbsorbtionScale>
 						<waterScatteringSkyFactor>
-							<value>	0.0108	</value>
+							<value>	0.0100	</value>
 						</waterScatteringSkyFactor>
 						<reflectionInscatterMult>
-							<value>	0.3430	</value>
+							<value>	0.3000	</value>
 						</reflectionInscatterMult>
 						<refractionAbsorbtionScale>
-							<value>	1.5000	</value>
+							<value>	1.0000	</value>
 						</refractionAbsorbtionScale>
 						<underwaterRefractionIndex>
-							<value>	1.3030	</value>
+							<value>	1.2000	</value>
 						</underwaterRefractionIndex>
 						<shaftsAmount>
-							<value>	0.0020	</value>
+							<value>	0.0150	</value>
 						</shaftsAmount>
 						<shaftsAmountSecondary>
-							<value>	0.1010	</value>
+							<value>	0.3000	</value>
 						</shaftsAmountSecondary>
 						<shaftsSecondaryColor>
 							<value>	0.0000 0.8000 1.0000 0.0000	</value>
 						</shaftsSecondaryColor>
 						<shaftsDepthFading>
-							<value>	14.0000	</value>
+							<value>	2.0000	</value>
 						</shaftsDepthFading>
 						<causticsIntensity>
-							<value>	0.1330	</value>
+							<value>	0.0000	</value>
 						</causticsIntensity>
 						<causticsScale>
-							<value>	1.2970	</value>
+							<value>	0.4000	</value>
 						</causticsScale>
 						<causticsAnimSpeed>
-							<value>	0.2800	</value>
+							<value>	0.3000	</value>
 						</causticsAnimSpeed>
 						<causticsDepthFading>
-							<value>	2.1490	</value>
+							<value>	2.0000	</value>
 						</causticsDepthFading>
 						<causticsMoveSpeed>
-							<value>	0.1000	</value>
+							<value>	0.3000	</value>
 						</causticsMoveSpeed>
 						<causticsMaxHeight>
 							<value>	0.0000	</value>
 						</causticsMaxHeight>
 						<underwaterSunYaw>
-							<value>	270.0000	</value>
+							<value>	43.0000	</value>
 						</underwaterSunYaw>
 						<underwaterSunPitch>
-							<value>	46.4700	</value>
+							<value>	17.6000	</value>
 						</underwaterSunPitch>
 					</settings>
 				</Underwater>
@@ -2478,16 +2477,16 @@
 							<value>	100.0000	</value>
 						</depth>
 						<windSpeedLargeWave>
-							<value>	9.0000	</value>
+							<value>	5.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2200	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
@@ -2517,28 +2516,28 @@
 							<value>	1.5000	</value>
 						</fftWindSpeed0>
 						<fftWindSpeed1>
-							<value>	1.4680	</value>
+							<value>	2.0000	</value>
 						</fftWindSpeed1>
 						<fftWindSpeed2>
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	0.1830	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -2568,19 +2567,19 @@
 							<value>	100.0000	</value>
 						</fftFetchWave2>
 						<simpleWavesWindAngle>
-							<value>	60.0000	</value>
+							<value>	360.0000	</value>
 						</simpleWavesWindAngle>
 						<wavesWindAngles>
 							<value>	0.0000 0.0000 0.0000 0.0000	</value>
 						</wavesWindAngles>
 						<variationMapOffset>
-							<value>	0.2840	</value>
+							<value>	0.4700	</value>
 						</variationMapOffset>
 						<variationMapPower>
-							<value>	1.8830	</value>
+							<value>	3.7100	</value>
 						</variationMapPower>
 						<variationMapThreshold>
-							<value>	0.5300	</value>
+							<value>	0.5800	</value>
 						</variationMapThreshold>
 						<variationMapScale>
 							<value>	1.0000	</value>
@@ -2589,7 +2588,7 @@
 							<value>	0.1000	</value>
 						</variationMapMinWave2Val>
 						<variationMapThresholdSmooth>
-							<value>	0.4600	</value>
+							<value>	0.5000	</value>
 						</variationMapThresholdSmooth>
 					</settings>
 				</Simulation>
@@ -2599,7 +2598,7 @@
 							<value>	0.8000	</value>
 						</waveLength>
 						<waveLengthFoam>
-							<value>	3.5999	</value>
+							<value>	3.5000	</value>
 						</waveLengthFoam>
 						<maxWindDir>
 							<value>	1.0000	</value>
@@ -2611,16 +2610,16 @@
 							<value>	0.3000	</value>
 						</foamWaveDeformAmplitude>
 						<foamWaveIntensity>
-							<value>	1.5667	</value>
+							<value>	1.0000	</value>
 						</foamWaveIntensity>
 						<foamWaveAddDensity>
-							<value>	0.2000	</value>
+							<value>	0.0000	</value>
 						</foamWaveAddDensity>
 						<waveParallelness>
-							<value>	0.2600	</value>
+							<value>	0.1500	</value>
 						</waveParallelness>
 						<waveSpeed>
-							<value>	1.5338	</value>
+							<value>	1.0000	</value>
 						</waveSpeed>
 						<foamWaveSpeedMult>
 							<value>	0.6000	</value>
@@ -2642,10 +2641,10 @@
 				<Sun>
 					<settings>
 						<yaw>
-							<value>	270.8000	</value>
+							<value>	43.0000	</value>
 						</yaw>
 						<pitch>
-							<value>	26.0000	</value>
+							<value>	17.6000	</value>
 						</pitch>
 						<color>
 							<value>	1.0000 0.9860 0.9500 1.0000	</value>
@@ -2658,13 +2657,13 @@
 							<value>	content/location/sun/sun_1_alpha_a.dds	</value>
 						</sunTexture>
 						<sunDiskSize>
-							<value>	1.0000	</value>
+							<value>	1.5000	</value>
 						</sunDiskSize>
 						<sunDiskColor>
 							<value>	1.0000 0.9580 0.8950 1.0000	</value>
 						</sunDiskColor>
 						<sunDiskBrightness>
-							<value>	0.0000	</value>
+							<value>	1.0000	</value>
 						</sunDiskBrightness>
 						<sunDiskOpacity>
 							<value>	0.0000	</value>
@@ -2677,25 +2676,25 @@
 							<value>	content\location\skybox\LK001_moving\LK001_moving.model	</value>
 						</skyDomeModel>
 						<skyDomeYaw>
-							<value>	178.4800	</value>
+							<value>	263.3140	</value>
 						</skyDomeYaw>
 						<skyDomeTexture>
 							<value>	content/location/skybox/textures/22_TDF_HDR003_rain.dds	</value>
 						</skyDomeTexture>
 						<cycleFrequency>
-							<value>	0.1000	</value>
+							<value>	0.0400	</value>
 						</cycleFrequency>
 						<parallax>
 							<value>	0.0100	</value>
 						</parallax>
 						<windYaw>
-							<value>	210.0000	</value>
+							<value>	328.3720	</value>
 						</windYaw>
 						<windScrollDist>
 							<value>	0.1000	</value>
 						</windScrollDist>
 						<windHorizonFactor>
-							<value>	0.0500	</value>
+							<value>	0.2000	</value>
 						</windHorizonFactor>
 						<windHorizonDistancePower>
 							<value>	2.5000	</value>
@@ -2713,16 +2712,16 @@
 							<value>	content/location/skybox/textures/Blendmap_tile.dds	</value>
 						</skyDomeBlendMap>
 						<blendingMapTiling>
-							<value>	10.0000	</value>
+							<value>	0.0000	</value>
 						</blendingMapTiling>
 						<blendingMapWindFactor>
-							<value>	0.2000	</value>
+							<value>	0.0000	</value>
 						</blendingMapWindFactor>
 						<blendingMapFlowFactor>
-							<value>	0.5000	</value>
+							<value>	0.0000	</value>
 						</blendingMapFlowFactor>
 						<blendingMapCycleFrequency>
-							<value>	0.3000	</value>
+							<value>	0.5000	</value>
 						</blendingMapCycleFrequency>
 						<cloudsMaskTexture>
 							<value>	null	</value>
@@ -2740,19 +2739,19 @@
 								<value>	null	</value>
 							</cloudsShadowMapTextureLayer1>
 							<intensityLayer0>
-								<value>	0.0000	</value>
+								<value>	1.0000	</value>
 							</intensityLayer0>
 							<intensityLayer1>
-								<value>	0.0000	</value>
+								<value>	1.0000	</value>
 							</intensityLayer1>
 							<scaleLayer0>
-								<value>	1.4400	</value>
+								<value>	0.3000	</value>
 							</scaleLayer0>
 							<scaleLayer1>
-								<value>	1.4400	</value>
+								<value>	0.3000	</value>
 							</scaleLayer1>
 							<speedCoefficientLayer1>
-								<value>	1.5000	</value>
+								<value>	0.3000	</value>
 							</speedCoefficientLayer1>
 							<yawShiftLayer1>
 								<value>	15.0000	</value>
@@ -2770,28 +2769,28 @@
 			<Forest>
 				<settings>
 					<aoAmplification>
-						<value>	1.5000	</value>
+						<value>	0.7450	</value>
 					</aoAmplification>
 					<transmissionAmplification>
-						<value>	0.6500	</value>
+						<value>	1.3450	</value>
 					</transmissionAmplification>
 					<windStrength>
-						<value>	1.0000	</value>
+						<value>	0.4100	</value>
 					</windStrength>
 					<windDirection>
 						<value>	15.0000	</value>
 					</windDirection>
 					<windGustFrequency>
-						<value>	1.0000	</value>
+						<value>	0.0000	</value>
 					</windGustFrequency>
 					<tintMapAOAmplification>
-						<value>	0.8000	</value>
+						<value>	1.6050	</value>
 					</tintMapAOAmplification>
 					<vsIntensity>
-						<value>	0.8500	</value>
+						<value>	0.7500	</value>
 					</vsIntensity>
 					<vsScale>
-						<value>	15.0000	</value>
+						<value>	20.0000	</value>
 					</vsScale>
 					<csmIntensity>
 						<value>	1.0000	</value>
@@ -2832,10 +2831,10 @@
 			<EnvironmentVfx>
 				<settings>
 					<bigFishDepth>
-						<value>	0.5000	</value>
+						<value>	0.0000	</value>
 					</bigFishDepth>
 					<rainAmount>
-						<value>	1.0000	</value>
+						<value>	0.0000	</value>
 					</rainAmount>
 				</settings>
 			</EnvironmentVfx>
@@ -2860,7 +2859,7 @@
 							<value>	5.0000	</value>
 						</opaqueShadowPenumbraSize>
 						<opaqueShadowContactDistance>
-							<value>	0.5000	</value>
+							<value>	2.0000	</value>
 						</opaqueShadowContactDistance>
 						<forestDitheringDepth>
 							<value>	0.2000	</value>
@@ -2885,7 +2884,7 @@
 							<value>	3.0000	</value>
 						</forestOnSeaShadowContrast>
 						<forestShadowMinIntesity>
-							<value>	0.9000	</value>
+							<value>	0.2000	</value>
 						</forestShadowMinIntesity>
 						<forestShadowMaxIntesity>
 							<value>	1.0000	</value>
@@ -3147,8 +3146,7 @@
 				</settings>
 			</Volumetrics>
 		</Weather>
-		<Weather
-				user_name="Sunny">
+		<Weather user_name="Sunny">
 			<settings>
 				<effect>
 					<value>	null	</value>
@@ -3169,13 +3167,13 @@
 					<value>	0.0000	</value>
 				</ripplesIntensity>
 				<uiBrightnessMultiplier>
-					<value>	0.4000	</value>
+					<value>	1.0500	</value>
 				</uiBrightnessMultiplier>
 				<tracerAmbientMultiplier>
-					<value>	2.1500	</value>
+					<value>	1.1200	</value>
 				</tracerAmbientMultiplier>
 				<tracerSunMultiplier>
-					<value>	0.5500	</value>
+					<value>	0.3300	</value>
 				</tracerSunMultiplier>
 				<tracerSmokeTint>
 					<value>	0.1381 0.1381 0.1381 1.0000	</value>
@@ -3190,37 +3188,37 @@
 						<value>	0.4309 0.6354 0.9266 0.1922	</value>
 					</fogColor>
 					<fogDensity>
-						<value>	0.0010	</value>
+						<value>	0.0020	</value>
 					</fogDensity>
 					<fogDensityNoBinocularMult>
-						<value>	2.0000	</value>
+						<value>	1.5000	</value>
 					</fogDensityNoBinocularMult>
 					<fogHeight>
-						<value>	10.0000	</value>
+						<value>	15.0000	</value>
 					</fogHeight>
 					<fogHeightFalloff>
-						<value>	0.0510	</value>
+						<value>	0.0350	</value>
 					</fogHeightFalloff>
 					<fogNearDistance>
-						<value>	30.9900	</value>
+						<value>	15.0000	</value>
 					</fogNearDistance>
 					<fogREMFactor>
-						<value>	0.8100	</value>
+						<value>	0.4500	</value>
 					</fogREMFactor>
 					<sunColor>
 						<value>	0.1675 0.1503 0.1434 1.0000	</value>
 					</sunColor>
 					<sunScatterPower>
-						<value>	2.0000	</value>
+						<value>	13.7720	</value>
 					</sunScatterPower>
 					<sunScatterStart>
 						<value>	0.0000	</value>
 					</sunScatterStart>
 					<skyLow>
-						<value>	0.0100	</value>
+						<value>	0.0000	</value>
 					</skyLow>
 					<skyHigh>
-						<value>	0.2500	</value>
+						<value>	0.2000	</value>
 					</skyHigh>
 					<fogShipInfluence>
 						<value>	1.0000	</value>
@@ -3229,7 +3227,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -3267,7 +3265,7 @@
 							<value>	true	</value>
 						</enabled>
 						<brightThreshold>
-							<value>	1.0000	</value>
+							<value>	3.6100	</value>
 						</brightThreshold>
 						<factor>
 							<value>	1.0000	</value>
@@ -3286,13 +3284,13 @@
 				<Tonemapping>
 					<settings>
 						<eyeDarkLimit>
-							<value>	0.0700	</value>
+							<value>	0.0440	</value>
 						</eyeDarkLimit>
 						<eyeLightLimit>
-							<value>	0.3500	</value>
+							<value>	0.5000	</value>
 						</eyeLightLimit>
 						<middleGray>
-							<value>	0.3600	</value>
+							<value>	0.2533	</value>
 						</middleGray>
 						<gtContrast>
 							<value>	0.7000	</value>
@@ -3311,10 +3309,10 @@
 				<Environment>
 					<settings>
 						<skyLumMultiplier>
-							<value>	0.2000	</value>
+							<value>	0.0700	</value>
 						</skyLumMultiplier>
 						<ambientLumMultiplier>
-							<value>	0.8500	</value>
+							<value>	0.8100	</value>
 						</ambientLumMultiplier>
 						<underwaterSunFactor>
 							<value>	1.0000	</value>
@@ -3323,7 +3321,7 @@
 							<value>	1.0000	</value>
 						</underwaterAmbientFactor>
 						<hdrMapExposureOffset>
-							<value>	-1.2000	</value>
+							<value>	0.0000	</value>
 						</hdrMapExposureOffset>
 					</settings>
 				</Environment>
@@ -3347,25 +3345,25 @@
 							<value>	0.9500	</value>
 						</microShadowsIntensity>
 						<microShadowsIntensityShips>
-							<value>	0.5000	</value>
+							<value>	0.3000	</value>
 						</microShadowsIntensityShips>
 						<aoPower>
-							<value>	1.2500	</value>
+							<value>	1.0000	</value>
 						</aoPower>
 						<soPower>
-							<value>	1.3500	</value>
+							<value>	1.0000	</value>
 						</soPower>
 						<aoAdditionalPowerForNonShips>
 							<value>	2.2000	</value>
 						</aoAdditionalPowerForNonShips>
 						<specularMult>
-							<value>	0.5860	</value>
+							<value>	1.0000	</value>
 						</specularMult>
 						<pmremSupressByShadow>
 							<value>	0.0000	</value>
 						</pmremSupressByShadow>
 						<overallWetness>
-							<value>	0.0770	</value>
+							<value>	0.0000	</value>
 						</overallWetness>
 						<wetnessColor>
 							<value>	0.0598 0.0539 0.0509 0.6434	</value>
@@ -3374,7 +3372,7 @@
 							<value>	0.0000	</value>
 						</coastlineHeight>
 						<coastlineFalloff>
-							<value>	0.2400	</value>
+							<value>	0.1000	</value>
 						</coastlineFalloff>
 						<lakeSpecularIntensity>
 							<value>	0.7000	</value>
@@ -3424,20 +3422,20 @@
 				<FilmGrain>
 					<settings>
 						<darkZonesMaxLuminance>
-							<value>	0.1500	</value>
+							<value>	0.1000	</value>
 						</darkZonesMaxLuminance>
 						<darkZonesIntensity>
-							<value>	0.1700	</value>
+							<value>	0.0000	</value>
 						</darkZonesIntensity>
 						<lightZonesIntensity>
-							<value>	0.1300	</value>
+							<value>	0.0000	</value>
 						</lightZonesIntensity>
 					</settings>
 				</FilmGrain>
 				<ChromaticAberration>
 					<settings>
 						<intensity>
-							<value>	0.0150	</value>
+							<value>	0.0110	</value>
 						</intensity>
 						<innerRadius>
 							<value>	0.3500	</value>
@@ -3450,13 +3448,13 @@
 							<value>	0	</value>
 						</maxLogLuminance>
 						<shadowsMaxRelLuminance>
-							<value>	0.0500	</value>
+							<value>	0.0670	</value>
 						</shadowsMaxRelLuminance>
 						<highlightsMinRelLuminance>
-							<value>	0.1100	</value>
+							<value>	0.0000	</value>
 						</highlightsMinRelLuminance>
 						<colorSaturationGlobal>
-							<value>	0.1000	</value>
+							<value>	0.0000	</value>
 						</colorSaturationGlobal>
 						<colorContrastGlobal>
 							<value>	1.0000	</value>
@@ -3471,7 +3469,7 @@
 							<value>	0.0000	</value>
 						</colorSaturationShadows>
 						<colorContrastShadows>
-							<value>	0.8500	</value>
+							<value>	0.9000	</value>
 						</colorContrastShadows>
 						<colorGainShadows>
 							<value>	1.0000 1.0000 1.0000	</value>
@@ -3480,7 +3478,7 @@
 							<value>	0.0000 0.0000 0.0000	</value>
 						</colorOffsetShadows>
 						<colorSaturationMidtones>
-							<value>	0.0000	</value>
+							<value>	-0.1720	</value>
 						</colorSaturationMidtones>
 						<colorContrastMidtones>
 							<value>	1.0000	</value>
@@ -3495,7 +3493,7 @@
 							<value>	0.0000	</value>
 						</colorSaturationHighlights>
 						<colorContrastHighlights>
-							<value>	1.0000	</value>
+							<value>	1.0540	</value>
 						</colorContrastHighlights>
 						<colorGainHighlights>
 							<value>	1.0000 0.8504 0.8000	</value>
@@ -3504,13 +3502,13 @@
 							<value>	0.0000 0.0000 0.0000	</value>
 						</colorOffsetHighlights>
 						<highlightsExposureOffset>
-							<value>	1.0000	</value>
+							<value>	0.0000	</value>
 						</highlightsExposureOffset>
 						<highlightsExposureOffsetMinLum>
-							<value>	0.1000	</value>
+							<value>	0.9000	</value>
 						</highlightsExposureOffsetMinLum>
 						<highlightsExposureOffsetMaxLum>
-							<value>	1.0000	</value>
+							<value>	2.0000	</value>
 						</highlightsExposureOffsetMaxLum>
 					</settings>
 				</ColorGrading>
@@ -3547,22 +3545,22 @@
 							<value>	1.0000	</value>
 						</brightSea>
 						<brightShips>
-							<value>	1.0000	</value>
+							<value>	0.5500	</value>
 						</brightShips>
 						<brightObjects>
 							<value>	1.0000	</value>
 						</brightObjects>
 						<brightIntensity>
-							<value>	0.0400	</value>
+							<value>	0.0000	</value>
 						</brightIntensity>
 						<fadeOnEffect>
 							<value>	true	</value>
 						</fadeOnEffect>
 						<glareScale>
-							<value>	0.0930	</value>
+							<value>	0.4000	</value>
 						</glareScale>
 						<glareIntensity>
-							<value>	0.2000	</value>
+							<value>	0.1000	</value>
 						</glareIntensity>
 						<glareRayScale>
 							<value>	0.9000 0.8000 1.0000	</value>
@@ -3571,22 +3569,22 @@
 							<value>	0.5240 1.5710 2.6180	</value>
 						</glareRayAngle>
 						<ghostCount>
-							<value>	8	</value>
+							<value>	3	</value>
 						</ghostCount>
 						<ghostDispersal>
-							<value>	0.6500	</value>
+							<value>	0.8820	</value>
 						</ghostDispersal>
 						<ghostIntensity>
-							<value>	0.0050	</value>
+							<value>	0.0400	</value>
 						</ghostIntensity>
 						<haloWidth>
 							<value>	0.2000	</value>
 						</haloWidth>
 						<haloIntensity>
-							<value>	0.0050	</value>
+							<value>	0.0400	</value>
 						</haloIntensity>
 						<chromaticDistortion>
-							<value>	0.0030	</value>
+							<value>	0.0270	</value>
 						</chromaticDistortion>
 						<dirtIntensity>
 							<value>	1.0000	</value>
@@ -3595,22 +3593,22 @@
 							<value>	1.0000	</value>
 						</starIntensity>
 						<sunCoronaOpacity>
-							<value>	1.0000	</value>
+							<value>	0.0000	</value>
 						</sunCoronaOpacity>
 						<sunCoronaBrightness>
-							<value>	1.5000	</value>
+							<value>	0.6250	</value>
 						</sunCoronaBrightness>
 						<sunCoronaScale>
-							<value>	4.5420	</value>
+							<value>	1.1360	</value>
 						</sunCoronaScale>
 						<sunCoronaRotSpeed>
-							<value>	0.3500	</value>
+							<value>	0.0000	</value>
 						</sunCoronaRotSpeed>
 						<sunFadeOutDist>
 							<value>	0.0000	</value>
 						</sunFadeOutDist>
 						<sunOcclusionRadiusCoef>
-							<value>	0.1500	</value>
+							<value>	0.2300	</value>
 						</sunOcclusionRadiusCoef>
 					</settings>
 				</LensFlare>
@@ -3620,10 +3618,10 @@
 							<value>	true	</value>
 						</maskScreenSpace>
 						<lightShaftsIntensity>
-							<value>	0.3000	</value>
+							<value>	0.1000	</value>
 						</lightShaftsIntensity>
 						<lightShaftsUnderwaterIntensity>
-							<value>	0.2000	</value>
+							<value>	0.0000	</value>
 						</lightShaftsUnderwaterIntensity>
 						<lightShaftsTintColor>
 							<value>	1.0000 0.9255 0.9000	</value>
@@ -3632,40 +3630,40 @@
 							<value>	0.7000 0.8427 1.0000	</value>
 						</lightShaftsUnderwaterTintColor>
 						<fadeStart>
-							<value>	1.0000	</value>
+							<value>	1.2410	</value>
 						</fadeStart>
 						<fadeEnd>
-							<value>	10.0000	</value>
+							<value>	2.0800	</value>
 						</fadeEnd>
 						<fadePow>
-							<value>	5.3590	</value>
+							<value>	1.2880	</value>
 						</fadePow>
 						<decay>
-							<value>	0.7000	</value>
+							<value>	0.7900	</value>
 						</decay>
 						<density>
-							<value>	0.8500	</value>
+							<value>	0.7000	</value>
 						</density>
 						<jitterAmount>
-							<value>	0.1880	</value>
+							<value>	1.2200	</value>
 						</jitterAmount>
 						<blurIntensity>
-							<value>	0.0000	</value>
+							<value>	0.1000	</value>
 						</blurIntensity>
 						<sunLightPow>
-							<value>	45.0000	</value>
+							<value>	160.0840	</value>
 						</sunLightPow>
 						<sunLightPowUnderwater>
 							<value>	30.0000	</value>
 						</sunLightPowUnderwater>
 						<quality>
-							<value>	0	</value>
+							<value>	1	</value>
 						</quality>
 						<passCount>
-							<value>	4	</value>
+							<value>	3	</value>
 						</passCount>
 						<scaleDensity>
-							<value>	0.7350	</value>
+							<value>	0.6550	</value>
 						</scaleDensity>
 						<disableDecayRestPass>
 							<value>	true	</value>
@@ -3684,10 +3682,10 @@
 				<Foam>
 					<settings>
 						<waveFoamFadeRate>
-							<value>	0.7000	</value>
+							<value>	0.6500	</value>
 						</waveFoamFadeRate>
 						<waveFoamCoverage>
-							<value>	0.3550	</value>
+							<value>	0.3750	</value>
 						</waveFoamCoverage>
 						<waveFoamHats>
 							<value>	1.0000	</value>
@@ -3696,16 +3694,16 @@
 							<value>	1.0000	</value>
 						</foamTextureScale>
 						<shoreFadeFactor>
-							<value>	0.1500	</value>
+							<value>	0.3000	</value>
 						</shoreFadeFactor>
 						<foamFadeFactor>
-							<value>	0.8500	</value>
+							<value>	1.0000	</value>
 						</foamFadeFactor>
 						<deformFoamMult>
-							<value>	0.6000	</value>
+							<value>	1.0000	</value>
 						</deformFoamMult>
 						<deformFoamDisplaceMult>
-							<value>	0.0075	</value>
+							<value>	0.0100	</value>
 						</deformFoamDisplaceMult>
 						<foamSurfaceRampMin>
 							<value>	0.5000	</value>
@@ -3714,16 +3712,16 @@
 							<value>	1.0000	</value>
 						</foamSubSurfDepth>
 						<deformFoamDeepSubSurfMult>
-							<value>	0.5500	</value>
+							<value>	0.7500	</value>
 						</deformFoamDeepSubSurfMult>
 						<foamDeepSubSurfMult>
-							<value>	0.9100	</value>
+							<value>	1.5000	</value>
 						</foamDeepSubSurfMult>
 						<foamDeepSubSurfRamp>
 							<value>	0.0000 1.0000	</value>
 						</foamDeepSubSurfRamp>
 						<foamSubSurfMult>
-							<value>	0.4000	</value>
+							<value>	0.5000	</value>
 						</foamSubSurfMult>
 						<foamSubSurfRamp>
 							<value>	0.4000 1.0000	</value>
@@ -3735,7 +3733,7 @@
 							<value>	0.1000 0.4000	</value>
 						</foamSplashRamp>
 						<foamVfxAmount>
-							<value>	0.6000	</value>
+							<value>	0.9000	</value>
 						</foamVfxAmount>
 						<foamVfxLifeTime>
 							<value>	1.0000 1.5000	</value>
@@ -3760,40 +3758,40 @@
 				<Optics>
 					<settings>
 						<refrDistortion>
-							<value>	0.2380	</value>
+							<value>	0.1400	</value>
 						</refrDistortion>
 						<waveSharpFactor>
-							<value>	0.4000	</value>
+							<value>	0.3500	</value>
 						</waveSharpFactor>
 						<refrTotalFactor>
-							<value>	0.7000	</value>
+							<value>	0.6500	</value>
 						</refrTotalFactor>
 						<reflectionScaleFOV>
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	4.0000	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
-							<value>	-0.2000	</value>
+							<value>	-0.9400	</value>
 						</subSurfaceThicknessMinSun>
 						<subSurfaceThicknessMaxSun>
-							<value>	2.0000	</value>
+							<value>	4.8400	</value>
 						</subSurfaceThicknessMaxSun>
 						<subSurfaceBrightnessSun>
-							<value>	1.8000	</value>
+							<value>	0.1700	</value>
 						</subSurfaceBrightnessSun>
 						<subSurfaceSunFalloff>
-							<value>	6.0000	</value>
+							<value>	2.0000	</value>
 						</subSurfaceSunFalloff>
 						<subSurfaceThicknessMinEnv>
-							<value>	-0.1000	</value>
+							<value>	-0.5490	</value>
 						</subSurfaceThicknessMinEnv>
 						<subSurfaceThicknessMaxEnv>
-							<value>	1.7500	</value>
+							<value>	3.0000	</value>
 						</subSurfaceThicknessMaxEnv>
 						<subSurfaceBrightnessEnv>
-							<value>	3.5000	</value>
+							<value>	1.0000	</value>
 						</subSurfaceBrightnessEnv>
 						<subSurfaceColor>
 							<value>	0.2000 0.6200 0.8000 1.0000	</value>
@@ -3811,10 +3809,10 @@
 							<value>	0.0000	</value>
 						</turbidColor2Amount>
 						<turbidGlobalBrightness>
-							<value>	0.4500	</value>
+							<value>	0.1150	</value>
 						</turbidGlobalBrightness>
 						<turbidSecondComponentPow>
-							<value>	10.0000	</value>
+							<value>	8.0000	</value>
 						</turbidSecondComponentPow>
 						<turbidLocalBrightness>
 							<value>	0.0440	</value>
@@ -3823,28 +3821,28 @@
 							<value>	1.5000 2.0000 2.2000 15.0000	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0900	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
-							<value>	0.9080	</value>
+							<value>	0.2860	</value>
 						</sunGlitterGlossiness>
 						<reflectionShadowIntensity>
-							<value>	0.4600	</value>
+							<value>	0.6000	</value>
 						</reflectionShadowIntensity>
 						<reflectionMapSpecIntensity>
-							<value>	0.7540	</value>
+							<value>	0.9100	</value>
 						</reflectionMapSpecIntensity>
 						<reflectionMapSpecRoughness>
-							<value>	0.3000	</value>
+							<value>	0.3550	</value>
 						</reflectionMapSpecRoughness>
 						<reflectionMapSpecSharpness>
 							<value>	0.0000	</value>
 						</reflectionMapSpecSharpness>
 						<momentsFresnelInfluence>
-							<value>	0.8500	</value>
+							<value>	1.0000	</value>
 						</momentsFresnelInfluence>
 						<momentsFresnelInfluenceStartDist>
-							<value>	100.0000	</value>
+							<value>	10.0000	</value>
 						</momentsFresnelInfluenceStartDist>
 					</settings>
 				</Optics>
@@ -3857,7 +3855,7 @@
 							<value>	0.1200 0.5144 0.8000 1.0000	</value>
 						</REMMultColor>
 						<REMMultColorFactor>
-							<value>	0.3500	</value>
+							<value>	0.2600	</value>
 						</REMMultColorFactor>
 						<directionalLightInscattering>
 							<value>	0.0173 0.4490 0.8077 0.0000	</value>
@@ -3866,16 +3864,16 @@
 							<value>	1.0000	</value>
 						</directionalLightInscatteringIntensity>
 						<directionalLightInscatteringExp>
-							<value>	1.0000	</value>
+							<value>	1.5720	</value>
 						</directionalLightInscatteringExp>
 						<turbidGlobalBrightness>
-							<value>	1.1000	</value>
+							<value>	2.2100	</value>
 						</turbidGlobalBrightness>
 						<sunRefractionIndex>
 							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.3200	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
 							<value>	0.6000	</value>
@@ -3887,13 +3885,13 @@
 							<value>	0.3000	</value>
 						</refractionDistortion>
 						<absorbtionBase>
-							<value>	0.0590	</value>
+							<value>	0.1200	</value>
 						</absorbtionBase>
 						<lightAbsorbtionScale>
-							<value>	0.6300	</value>
+							<value>	1.0000	</value>
 						</lightAbsorbtionScale>
 						<depthAbsorbtionScale>
-							<value>	0.0180	</value>
+							<value>	0.0000	</value>
 						</depthAbsorbtionScale>
 						<waterScatteringSkyFactor>
 							<value>	0.0100	</value>
@@ -3908,7 +3906,7 @@
 							<value>	1.2000	</value>
 						</underwaterRefractionIndex>
 						<shaftsAmount>
-							<value>	0.0100	</value>
+							<value>	0.0050	</value>
 						</shaftsAmount>
 						<shaftsAmountSecondary>
 							<value>	0.3000	</value>
@@ -3917,31 +3915,31 @@
 							<value>	0.0000 0.8000 1.0000 0.0000	</value>
 						</shaftsSecondaryColor>
 						<shaftsDepthFading>
-							<value>	20.0000	</value>
+							<value>	5.1400	</value>
 						</shaftsDepthFading>
 						<causticsIntensity>
-							<value>	1.0000	</value>
+							<value>	1.8800	</value>
 						</causticsIntensity>
 						<causticsScale>
-							<value>	0.1000	</value>
+							<value>	0.4000	</value>
 						</causticsScale>
 						<causticsAnimSpeed>
-							<value>	0.1000	</value>
+							<value>	0.3000	</value>
 						</causticsAnimSpeed>
 						<causticsDepthFading>
 							<value>	2.0000	</value>
 						</causticsDepthFading>
 						<causticsMoveSpeed>
-							<value>	0.2000	</value>
+							<value>	0.3000	</value>
 						</causticsMoveSpeed>
 						<causticsMaxHeight>
 							<value>	0.0000	</value>
 						</causticsMaxHeight>
 						<underwaterSunYaw>
-							<value>	270.6000	</value>
+							<value>	43.0000	</value>
 						</underwaterSunYaw>
 						<underwaterSunPitch>
-							<value>	22.0000	</value>
+							<value>	17.6000	</value>
 						</underwaterSunPitch>
 					</settings>
 				</Underwater>
@@ -3960,28 +3958,28 @@
 							<value>	2.0000	</value>
 						</UVWarpingFrequency>
 						<gravity>
-							<value>	7.0000	</value>
+							<value>	9.8100	</value>
 						</gravity>
 						<depth>
 							<value>	100.0000	</value>
 						</depth>
 						<windSpeedLargeWave>
-							<value>	10.0000	</value>
+							<value>	3.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.1370	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
 						</swellLargeWave>
 						<fetchLargeWave>
-							<value>	249.9300	</value>
+							<value>	300.0000	</value>
 						</fetchLargeWave>
 						<fftPatchSize0>
 							<value>	300.0000	</value>
@@ -4002,31 +4000,31 @@
 							<value>	1.3000	</value>
 						</fftChoppyScale2>
 						<fftWindSpeed0>
-							<value>	1.7000	</value>
+							<value>	1.0000	</value>
 						</fftWindSpeed0>
 						<fftWindSpeed1>
-							<value>	3.5000	</value>
+							<value>	2.0000	</value>
 						</fftWindSpeed1>
 						<fftWindSpeed2>
 							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	1.0000	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -4053,22 +4051,22 @@
 							<value>	100.0000	</value>
 						</fftFetchWave1>
 						<fftFetchWave2>
-							<value>	200.4000	</value>
+							<value>	100.0000	</value>
 						</fftFetchWave2>
 						<simpleWavesWindAngle>
-							<value>	60.0000	</value>
+							<value>	360.0000	</value>
 						</simpleWavesWindAngle>
 						<wavesWindAngles>
 							<value>	0.0000 0.0000 0.0000 0.0000	</value>
 						</wavesWindAngles>
 						<variationMapOffset>
-							<value>	0.4000	</value>
+							<value>	0.4700	</value>
 						</variationMapOffset>
 						<variationMapPower>
-							<value>	1.8670	</value>
+							<value>	3.7100	</value>
 						</variationMapPower>
 						<variationMapThreshold>
-							<value>	0.7000	</value>
+							<value>	0.6900	</value>
 						</variationMapThreshold>
 						<variationMapScale>
 							<value>	1.0000	</value>
@@ -4077,7 +4075,7 @@
 							<value>	0.1000	</value>
 						</variationMapMinWave2Val>
 						<variationMapThresholdSmooth>
-							<value>	0.4600	</value>
+							<value>	0.5000	</value>
 						</variationMapThresholdSmooth>
 					</settings>
 				</Simulation>
@@ -4087,7 +4085,7 @@
 							<value>	0.8000	</value>
 						</waveLength>
 						<waveLengthFoam>
-							<value>	3.5999	</value>
+							<value>	3.5000	</value>
 						</waveLengthFoam>
 						<maxWindDir>
 							<value>	1.0000	</value>
@@ -4099,16 +4097,16 @@
 							<value>	0.3000	</value>
 						</foamWaveDeformAmplitude>
 						<foamWaveIntensity>
-							<value>	0.2667	</value>
+							<value>	1.0000	</value>
 						</foamWaveIntensity>
 						<foamWaveAddDensity>
-							<value>	0.2000	</value>
+							<value>	0.0000	</value>
 						</foamWaveAddDensity>
 						<waveParallelness>
-							<value>	0.2600	</value>
+							<value>	0.1500	</value>
 						</waveParallelness>
 						<waveSpeed>
-							<value>	1.5338	</value>
+							<value>	1.0000	</value>
 						</waveSpeed>
 						<foamWaveSpeedMult>
 							<value>	0.6000	</value>
@@ -4130,10 +4128,10 @@
 				<Sun>
 					<settings>
 						<yaw>
-							<value>	270.0000	</value>
+							<value>	43.0000	</value>
 						</yaw>
 						<pitch>
-							<value>	24.0000	</value>
+							<value>	17.6000	</value>
 						</pitch>
 						<color>
 							<value>	2.0000 1.7270 1.4000 1.0000	</value>
@@ -4146,13 +4144,13 @@
 							<value>	content/location/sun/sun_1_alpha_a.dds	</value>
 						</sunTexture>
 						<sunDiskSize>
-							<value>	1.0000	</value>
+							<value>	1.3000	</value>
 						</sunDiskSize>
 						<sunDiskColor>
 							<value>	1.0000 1.0000 1.0000 1.0000	</value>
 						</sunDiskColor>
 						<sunDiskBrightness>
-							<value>	2.5000	</value>
+							<value>	0.5000	</value>
 						</sunDiskBrightness>
 						<sunDiskOpacity>
 							<value>	0.0000	</value>
@@ -4165,28 +4163,28 @@
 							<value>	content/location/skybox/LK001_moving/LK001_moving.model	</value>
 						</skyDomeModel>
 						<skyDomeYaw>
-							<value>	77.1700	</value>
+							<value>	248.0000	</value>
 						</skyDomeYaw>
 						<skyDomeTexture>
 							<value>	content/location/skybox/textures/22_TDF_HDR018_Sunny.dds	</value>
 						</skyDomeTexture>
 						<cycleFrequency>
-							<value>	0.1000	</value>
+							<value>	0.0400	</value>
 						</cycleFrequency>
 						<parallax>
-							<value>	0.0130	</value>
+							<value>	0.0100	</value>
 						</parallax>
 						<windYaw>
-							<value>	210.8730	</value>
+							<value>	359.0000	</value>
 						</windYaw>
 						<windScrollDist>
 							<value>	0.1000	</value>
 						</windScrollDist>
 						<windHorizonFactor>
-							<value>	0.0500	</value>
+							<value>	0.1000	</value>
 						</windHorizonFactor>
 						<windHorizonDistancePower>
-							<value>	2.5100	</value>
+							<value>	3.0000	</value>
 						</windHorizonDistancePower>
 						<skyDomeFlowMap>
 							<value>	content/location/skybox/textures/22_TDF_HDR018_Sunnyy_Flowmap.dds	</value>
@@ -4201,16 +4199,16 @@
 							<value>	content/location/skybox/textures/Blendmap_tile.dds	</value>
 						</skyDomeBlendMap>
 						<blendingMapTiling>
-							<value>	10.0250	</value>
+							<value>	0.0000	</value>
 						</blendingMapTiling>
 						<blendingMapWindFactor>
-							<value>	0.2140	</value>
+							<value>	0.0000	</value>
 						</blendingMapWindFactor>
 						<blendingMapFlowFactor>
-							<value>	0.5050	</value>
+							<value>	0.0000	</value>
 						</blendingMapFlowFactor>
 						<blendingMapCycleFrequency>
-							<value>	0.3090	</value>
+							<value>	0.5000	</value>
 						</blendingMapCycleFrequency>
 						<cloudsMaskTexture>
 							<value>	null	</value>
@@ -4228,19 +4226,19 @@
 								<value>	content/location/skybox/textures/cloud_shadows/CloudShadows_Blurred_med_01.dds	</value>
 							</cloudsShadowMapTextureLayer1>
 							<intensityLayer0>
-								<value>	1.0000	</value>
+								<value>	0.2750	</value>
 							</intensityLayer0>
 							<intensityLayer1>
-								<value>	1.0000	</value>
+								<value>	0.3010	</value>
 							</intensityLayer1>
 							<scaleLayer0>
-								<value>	0.7100	</value>
+								<value>	0.7000	</value>
 							</scaleLayer0>
 							<scaleLayer1>
-								<value>	0.7100	</value>
+								<value>	0.3000	</value>
 							</scaleLayer1>
 							<speedCoefficientLayer1>
-								<value>	2.0000	</value>
+								<value>	0.3000	</value>
 							</speedCoefficientLayer1>
 							<yawShiftLayer1>
 								<value>	15.0000	</value>
@@ -4258,13 +4256,13 @@
 			<Forest>
 				<settings>
 					<aoAmplification>
-						<value>	1.4950	</value>
+						<value>	0.4950	</value>
 					</aoAmplification>
 					<transmissionAmplification>
-						<value>	1.0000	</value>
+						<value>	0.8350	</value>
 					</transmissionAmplification>
 					<windStrength>
-						<value>	0.3500	</value>
+						<value>	0.2000	</value>
 					</windStrength>
 					<windDirection>
 						<value>	15.0000	</value>
@@ -4273,7 +4271,7 @@
 						<value>	0.0000	</value>
 					</windGustFrequency>
 					<tintMapAOAmplification>
-						<value>	0.9550	</value>
+						<value>	0.2950	</value>
 					</tintMapAOAmplification>
 					<vsIntensity>
 						<value>	0.7500	</value>
@@ -4345,7 +4343,7 @@
 							<value>	7.0000	</value>
 						</seaShadowPenumbraSize>
 						<opaqueShadowPenumbraSize>
-							<value>	4.0000	</value>
+							<value>	5.0000	</value>
 						</opaqueShadowPenumbraSize>
 						<opaqueShadowContactDistance>
 							<value>	2.0000	</value>
@@ -4635,8 +4633,7 @@
 				</settings>
 			</Volumetrics>
 		</Weather>
-		<Weather
-				user_name="Cloudy">
+		<Weather user_name="Cloudy">
 			<settings>
 				<effect>
 					<value>	null	</value>
@@ -4657,13 +4654,13 @@
 					<value>	0.0000	</value>
 				</ripplesIntensity>
 				<uiBrightnessMultiplier>
-					<value>	0.4000	</value>
+					<value>	1.0000	</value>
 				</uiBrightnessMultiplier>
 				<tracerAmbientMultiplier>
-					<value>	2.1500	</value>
+					<value>	0.9900	</value>
 				</tracerAmbientMultiplier>
 				<tracerSunMultiplier>
-					<value>	0.5500	</value>
+					<value>	1.1800	</value>
 				</tracerSunMultiplier>
 				<tracerSmokeTint>
 					<value>	0.5593 0.5641 0.5637 1.0000	</value>
@@ -4678,34 +4675,34 @@
 						<value>	0.1700 0.1292 0.1414 0.0000	</value>
 					</fogColor>
 					<fogDensity>
-						<value>	0.0018	</value>
+						<value>	0.0020	</value>
 					</fogDensity>
 					<fogDensityNoBinocularMult>
 						<value>	1.5000	</value>
 					</fogDensityNoBinocularMult>
 					<fogHeight>
-						<value>	8.0000	</value>
+						<value>	7.0000	</value>
 					</fogHeight>
 					<fogHeightFalloff>
-						<value>	0.0310	</value>
+						<value>	0.0350	</value>
 					</fogHeightFalloff>
 					<fogNearDistance>
-						<value>	25.0000	</value>
+						<value>	15.0000	</value>
 					</fogNearDistance>
 					<fogREMFactor>
-						<value>	0.7000	</value>
+						<value>	0.4500	</value>
 					</fogREMFactor>
 					<sunColor>
 						<value>	0.1713 0.1443 0.1262 0.7273	</value>
 					</sunColor>
 					<sunScatterPower>
-						<value>	5.0000	</value>
+						<value>	25.0000	</value>
 					</sunScatterPower>
 					<sunScatterStart>
 						<value>	0.0000	</value>
 					</sunScatterStart>
 					<skyLow>
-						<value>	-0.0100	</value>
+						<value>	0.0000	</value>
 					</skyLow>
 					<skyHigh>
 						<value>	0.2000	</value>
@@ -4717,7 +4714,7 @@
 						<value>	1.0000	</value>
 					</fogBinocularsInfluenceOnParticles>
 					<fogAlpha>
-						<value>	1.0000	</value>
+						<value>0.0000</value>
 					</fogAlpha>
 				</settings>
 			</Fog>
@@ -4755,16 +4752,16 @@
 							<value>	true	</value>
 						</enabled>
 						<brightThreshold>
-							<value>	3.0000	</value>
+							<value>	0.2570	</value>
 						</brightThreshold>
 						<factor>
-							<value>	1.3000	</value>
+							<value>	1.0000	</value>
 						</factor>
 						<bloomAmount>
-							<value>	0.1500	</value>
+							<value>	0.1000	</value>
 						</bloomAmount>
 						<bloomRadius>
-							<value>	0.6000	</value>
+							<value>	0.5000	</value>
 						</bloomRadius>
 						<bloomTint>
 							<value>	1.4000 0.8176 0.2800	</value>
@@ -4774,35 +4771,35 @@
 				<Tonemapping>
 					<settings>
 						<eyeDarkLimit>
-							<value>	0.0300	</value>
+							<value>	0.1000	</value>
 						</eyeDarkLimit>
 						<eyeLightLimit>
-							<value>	0.1000	</value>
+							<value>	0.3000	</value>
 						</eyeLightLimit>
 						<middleGray>
-							<value>	0.2100	</value>
+							<value>	0.3530	</value>
 						</middleGray>
 						<gtContrast>
 							<value>	0.7000	</value>
 						</gtContrast>
 						<gtLinearSectionStart>
-							<value>	0.4520	</value>
+							<value>	0.6400	</value>
 						</gtLinearSectionStart>
 						<gtLinearSectionLength>
-							<value>	0.2520	</value>
+							<value>	0.0000	</value>
 						</gtLinearSectionLength>
 						<gtBlack>
-							<value>	1.2500	</value>
+							<value>	1.1000	</value>
 						</gtBlack>
 					</settings>
 				</Tonemapping>
 				<Environment>
 					<settings>
 						<skyLumMultiplier>
-							<value>	0.1500	</value>
+							<value>	0.1100	</value>
 						</skyLumMultiplier>
 						<ambientLumMultiplier>
-							<value>	0.6000	</value>
+							<value>	0.5100	</value>
 						</ambientLumMultiplier>
 						<underwaterSunFactor>
 							<value>	1.0000	</value>
@@ -4811,7 +4808,7 @@
 							<value>	1.0000	</value>
 						</underwaterAmbientFactor>
 						<hdrMapExposureOffset>
-							<value>	-1.0000	</value>
+							<value>	0.0000	</value>
 						</hdrMapExposureOffset>
 					</settings>
 				</Environment>
@@ -4832,7 +4829,7 @@
 				<PbsExtras>
 					<settings>
 						<microShadowsIntensity>
-							<value>	0.6000	</value>
+							<value>	0.9500	</value>
 						</microShadowsIntensity>
 						<microShadowsIntensityShips>
 							<value>	0.3000	</value>
@@ -4853,16 +4850,16 @@
 							<value>	0.0000	</value>
 						</pmremSupressByShadow>
 						<overallWetness>
-							<value>	0.1100	</value>
+							<value>	0.0000	</value>
 						</overallWetness>
 						<wetnessColor>
 							<value>	0.1053 0.0481 0.0000 1.0000	</value>
 						</wetnessColor>
 						<coastlineHeight>
-							<value>	-0.0100	</value>
+							<value>	0.0000	</value>
 						</coastlineHeight>
 						<coastlineFalloff>
-							<value>	0.1570	</value>
+							<value>	0.1000	</value>
 						</coastlineFalloff>
 						<lakeSpecularIntensity>
 							<value>	0.7000	</value>
@@ -4912,20 +4909,20 @@
 				<FilmGrain>
 					<settings>
 						<darkZonesMaxLuminance>
-							<value>	0.1500	</value>
+							<value>	0.1000	</value>
 						</darkZonesMaxLuminance>
 						<darkZonesIntensity>
-							<value>	0.1700	</value>
+							<value>	0.0000	</value>
 						</darkZonesIntensity>
 						<lightZonesIntensity>
-							<value>	0.1100	</value>
+							<value>	0.0000	</value>
 						</lightZonesIntensity>
 					</settings>
 				</FilmGrain>
 				<ChromaticAberration>
 					<settings>
 						<intensity>
-							<value>	0.0200	</value>
+							<value>	0.0110	</value>
 						</intensity>
 						<innerRadius>
 							<value>	0.3500	</value>
@@ -4938,13 +4935,13 @@
 							<value>	0	</value>
 						</maxLogLuminance>
 						<shadowsMaxRelLuminance>
-							<value>	0.3000	</value>
+							<value>	0.0900	</value>
 						</shadowsMaxRelLuminance>
 						<highlightsMinRelLuminance>
-							<value>	0.0300	</value>
+							<value>	0.5000	</value>
 						</highlightsMinRelLuminance>
 						<colorSaturationGlobal>
-							<value>	0.1000	</value>
+							<value>	0.0000	</value>
 						</colorSaturationGlobal>
 						<colorContrastGlobal>
 							<value>	1.0000	</value>
@@ -4956,10 +4953,10 @@
 							<value>	0.0000 0.0000 0.0000	</value>
 						</colorOffsetGlobal>
 						<colorSaturationShadows>
-							<value>	0.1500	</value>
+							<value>	0.0000	</value>
 						</colorSaturationShadows>
 						<colorContrastShadows>
-							<value>	0.9000	</value>
+							<value>	0.9500	</value>
 						</colorContrastShadows>
 						<colorGainShadows>
 							<value>	0.7125 0.8005 0.9500	</value>
@@ -4968,7 +4965,7 @@
 							<value>	0.0007 0.0025 0.0050	</value>
 						</colorOffsetShadows>
 						<colorSaturationMidtones>
-							<value>	0.1500	</value>
+							<value>	0.0000	</value>
 						</colorSaturationMidtones>
 						<colorContrastMidtones>
 							<value>	1.0000	</value>
@@ -4983,7 +4980,7 @@
 							<value>	0.0000	</value>
 						</colorSaturationHighlights>
 						<colorContrastHighlights>
-							<value>	1.0000	</value>
+							<value>	0.8890	</value>
 						</colorContrastHighlights>
 						<colorGainHighlights>
 							<value>	1.1000 0.6600 0.2200	</value>
@@ -4992,13 +4989,13 @@
 							<value>	0.0000 0.0000 0.0000	</value>
 						</colorOffsetHighlights>
 						<highlightsExposureOffset>
-							<value>	1.0000	</value>
+							<value>	0.0000	</value>
 						</highlightsExposureOffset>
 						<highlightsExposureOffsetMinLum>
-							<value>	0.0000	</value>
+							<value>	0.9000	</value>
 						</highlightsExposureOffsetMinLum>
 						<highlightsExposureOffsetMaxLum>
-							<value>	8.0000	</value>
+							<value>	2.0000	</value>
 						</highlightsExposureOffsetMaxLum>
 					</settings>
 				</ColorGrading>
@@ -5032,10 +5029,10 @@
 							<value>	1.0000	</value>
 						</brightSky>
 						<brightSea>
-							<value>	3.0000	</value>
+							<value>	4.0000	</value>
 						</brightSea>
 						<brightShips>
-							<value>	0.6000	</value>
+							<value>	1.0000	</value>
 						</brightShips>
 						<brightObjects>
 							<value>	1.0000	</value>
@@ -5047,7 +5044,7 @@
 							<value>	true	</value>
 						</fadeOnEffect>
 						<glareScale>
-							<value>	0.2000	</value>
+							<value>	0.4000	</value>
 						</glareScale>
 						<glareIntensity>
 							<value>	0.1000	</value>
@@ -5059,22 +5056,22 @@
 							<value>	0.5240 1.5710 2.6180	</value>
 						</glareRayAngle>
 						<ghostCount>
-							<value>	3	</value>
+							<value>	6	</value>
 						</ghostCount>
 						<ghostDispersal>
-							<value>	0.3000	</value>
+							<value>	0.6500	</value>
 						</ghostDispersal>
 						<ghostIntensity>
-							<value>	0.0300	</value>
+							<value>	0.0400	</value>
 						</ghostIntensity>
 						<haloWidth>
-							<value>	0.2000	</value>
+							<value>	0.2100	</value>
 						</haloWidth>
 						<haloIntensity>
-							<value>	0.0300	</value>
+							<value>	0.0400	</value>
 						</haloIntensity>
 						<chromaticDistortion>
-							<value>	0.0100	</value>
+							<value>	0.0050	</value>
 						</chromaticDistortion>
 						<dirtIntensity>
 							<value>	1.0000	</value>
@@ -5083,22 +5080,22 @@
 							<value>	1.0000	</value>
 						</starIntensity>
 						<sunCoronaOpacity>
-							<value>	0.0000	</value>
+							<value>	1.0000	</value>
 						</sunCoronaOpacity>
 						<sunCoronaBrightness>
-							<value>	3.0000	</value>
+							<value>	4.5000	</value>
 						</sunCoronaBrightness>
 						<sunCoronaScale>
-							<value>	9.0000	</value>
+							<value>	1.6650	</value>
 						</sunCoronaScale>
 						<sunCoronaRotSpeed>
-							<value>	2.0000	</value>
+							<value>	0.0000	</value>
 						</sunCoronaRotSpeed>
 						<sunFadeOutDist>
 							<value>	0.0000	</value>
 						</sunFadeOutDist>
 						<sunOcclusionRadiusCoef>
-							<value>	1.0000	</value>
+							<value>	0.1200	</value>
 						</sunOcclusionRadiusCoef>
 					</settings>
 				</LensFlare>
@@ -5108,10 +5105,10 @@
 							<value>	true	</value>
 						</maskScreenSpace>
 						<lightShaftsIntensity>
-							<value>	0.0000	</value>
+							<value>	0.5000	</value>
 						</lightShaftsIntensity>
 						<lightShaftsUnderwaterIntensity>
-							<value>	0.0000	</value>
+							<value>	0.3000	</value>
 						</lightShaftsUnderwaterIntensity>
 						<lightShaftsTintColor>
 							<value>	0.8510 0.5843 0.3137	</value>
@@ -5120,28 +5117,28 @@
 							<value>	1.0000 1.0000 1.0000	</value>
 						</lightShaftsUnderwaterTintColor>
 						<fadeStart>
-							<value>	0.8500	</value>
+							<value>	1.8500	</value>
 						</fadeStart>
 						<fadeEnd>
-							<value>	1.6000	</value>
+							<value>	9.1380	</value>
 						</fadeEnd>
 						<fadePow>
-							<value>	10.0000	</value>
+							<value>	3.1540	</value>
 						</fadePow>
 						<decay>
-							<value>	0.9000	</value>
+							<value>	0.9040	</value>
 						</decay>
 						<density>
 							<value>	1.0000	</value>
 						</density>
 						<jitterAmount>
-							<value>	1.0000	</value>
+							<value>	1.3090	</value>
 						</jitterAmount>
 						<blurIntensity>
-							<value>	0.0000	</value>
+							<value>	0.1420	</value>
 						</blurIntensity>
 						<sunLightPow>
-							<value>	100.0000	</value>
+							<value>	234.1190	</value>
 						</sunLightPow>
 						<sunLightPowUnderwater>
 							<value>	30.0000	</value>
@@ -5150,10 +5147,10 @@
 							<value>	1	</value>
 						</quality>
 						<passCount>
-							<value>	2	</value>
+							<value>	3	</value>
 						</passCount>
 						<scaleDensity>
-							<value>	0.5000	</value>
+							<value>	0.6550	</value>
 						</scaleDensity>
 						<disableDecayRestPass>
 							<value>	true	</value>
@@ -5172,10 +5169,10 @@
 				<Foam>
 					<settings>
 						<waveFoamFadeRate>
-							<value>	0.7000	</value>
+							<value>	0.6500	</value>
 						</waveFoamFadeRate>
 						<waveFoamCoverage>
-							<value>	0.3550	</value>
+							<value>	0.3700	</value>
 						</waveFoamCoverage>
 						<waveFoamHats>
 							<value>	1.0000	</value>
@@ -5184,34 +5181,34 @@
 							<value>	1.0000	</value>
 						</foamTextureScale>
 						<shoreFadeFactor>
-							<value>	0.1500	</value>
+							<value>	0.3000	</value>
 						</shoreFadeFactor>
 						<foamFadeFactor>
-							<value>	0.8500	</value>
+							<value>	1.0000	</value>
 						</foamFadeFactor>
 						<deformFoamMult>
-							<value>	0.8500	</value>
+							<value>	1.0000	</value>
 						</deformFoamMult>
 						<deformFoamDisplaceMult>
-							<value>	0.0075	</value>
+							<value>	0.0100	</value>
 						</deformFoamDisplaceMult>
 						<foamSurfaceRampMin>
 							<value>	0.5000	</value>
 						</foamSurfaceRampMin>
 						<foamSubSurfDepth>
-							<value>	0.5000	</value>
+							<value>	1.0000	</value>
 						</foamSubSurfDepth>
 						<deformFoamDeepSubSurfMult>
-							<value>	0.5500	</value>
+							<value>	0.7500	</value>
 						</deformFoamDeepSubSurfMult>
 						<foamDeepSubSurfMult>
-							<value>	0.9100	</value>
+							<value>	1.5000	</value>
 						</foamDeepSubSurfMult>
 						<foamDeepSubSurfRamp>
 							<value>	0.0000 1.0000	</value>
 						</foamDeepSubSurfRamp>
 						<foamSubSurfMult>
-							<value>	0.4000	</value>
+							<value>	0.5000	</value>
 						</foamSubSurfMult>
 						<foamSubSurfRamp>
 							<value>	0.6200 1.0000	</value>
@@ -5223,7 +5220,7 @@
 							<value>	0.1000 0.4000	</value>
 						</foamSplashRamp>
 						<foamVfxAmount>
-							<value>	0.6000	</value>
+							<value>	0.9000	</value>
 						</foamVfxAmount>
 						<foamVfxLifeTime>
 							<value>	1.0000 1.5000	</value>
@@ -5248,46 +5245,46 @@
 				<Optics>
 					<settings>
 						<refrDistortion>
-							<value>	0.2000	</value>
+							<value>	0.1400	</value>
 						</refrDistortion>
 						<waveSharpFactor>
 							<value>	0.2000	</value>
 						</waveSharpFactor>
 						<refrTotalFactor>
-							<value>	0.9000	</value>
+							<value>	1.0000	</value>
 						</refrTotalFactor>
 						<reflectionScaleFOV>
 							<value>	1.0000	</value>
 						</reflectionScaleFOV>
 						<waterTransparency>
-							<value>	1.0000	</value>
+							<value>	0.0500	</value>
 						</waterTransparency>
 						<subSurfaceThicknessMinSun>
-							<value>	-0.1000	</value>
+							<value>	-0.9400	</value>
 						</subSurfaceThicknessMinSun>
 						<subSurfaceThicknessMaxSun>
-							<value>	1.0000	</value>
+							<value>	4.8400	</value>
 						</subSurfaceThicknessMaxSun>
 						<subSurfaceBrightnessSun>
-							<value>	0.5000	</value>
+							<value>	0.1700	</value>
 						</subSurfaceBrightnessSun>
 						<subSurfaceSunFalloff>
-							<value>	5.0000	</value>
+							<value>	2.0000	</value>
 						</subSurfaceSunFalloff>
 						<subSurfaceThicknessMinEnv>
-							<value>	-0.1500	</value>
+							<value>	-0.5490	</value>
 						</subSurfaceThicknessMinEnv>
 						<subSurfaceThicknessMaxEnv>
-							<value>	2.0000	</value>
+							<value>	3.0000	</value>
 						</subSurfaceThicknessMaxEnv>
 						<subSurfaceBrightnessEnv>
-							<value>	2.5000	</value>
+							<value>	1.0000	</value>
 						</subSurfaceBrightnessEnv>
 						<subSurfaceColor>
 							<value>	0.2275 0.6500 0.5232 1.0000	</value>
 						</subSurfaceColor>
 						<subSurfaceNormalSmoothness>
-							<value>	0.3500	</value>
+							<value>	0.2090	</value>
 						</subSurfaceNormalSmoothness>
 						<turbidColor>
 							<value>	0.0600 0.2496 0.3000 1.0000	</value>
@@ -5296,43 +5293,43 @@
 							<value>	0.0250 0.0550 0.1000 1.0000	</value>
 						</turbidColor2>
 						<turbidColor2Amount>
-							<value>	1.0000	</value>
+							<value>	0.0000	</value>
 						</turbidColor2Amount>
 						<turbidGlobalBrightness>
-							<value>	0.3500	</value>
+							<value>	0.1750	</value>
 						</turbidGlobalBrightness>
 						<turbidSecondComponentPow>
-							<value>	8.0000	</value>
+							<value>	10.9330	</value>
 						</turbidSecondComponentPow>
 						<turbidLocalBrightness>
-							<value>	0.0030	</value>
+							<value>	0.0440	</value>
 						</turbidLocalBrightness>
 						<rgbAbsorption>
 							<value>	1.2000 2.2500 2.3000 0.0100	</value>
 						</rgbAbsorption>
 						<sunGlitterIntensity>
-							<value>	0.0050	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
-							<value>	0.8500	</value>
+							<value>	0.8050	</value>
 						</sunGlitterGlossiness>
 						<reflectionShadowIntensity>
-							<value>	0.4500	</value>
+							<value>	1.0000	</value>
 						</reflectionShadowIntensity>
 						<reflectionMapSpecIntensity>
-							<value>	0.7500	</value>
+							<value>	0.9100	</value>
 						</reflectionMapSpecIntensity>
 						<reflectionMapSpecRoughness>
-							<value>	0.6700	</value>
+							<value>	0.3550	</value>
 						</reflectionMapSpecRoughness>
 						<reflectionMapSpecSharpness>
-							<value>	0.3000	</value>
+							<value>	0.0000	</value>
 						</reflectionMapSpecSharpness>
 						<momentsFresnelInfluence>
-							<value>	0.7000	</value>
+							<value>	1.0000	</value>
 						</momentsFresnelInfluence>
 						<momentsFresnelInfluenceStartDist>
-							<value>	32.7000	</value>
+							<value>	0.0000	</value>
 						</momentsFresnelInfluenceStartDist>
 					</settings>
 				</Optics>
@@ -5345,7 +5342,7 @@
 							<value>	0.1800 0.4000 0.3917 1.0000	</value>
 						</REMMultColor>
 						<REMMultColorFactor>
-							<value>	0.5700	</value>
+							<value>	0.0400	</value>
 						</REMMultColorFactor>
 						<directionalLightInscattering>
 							<value>	0.0000 0.5357 0.3750 1.0000	</value>
@@ -5354,34 +5351,34 @@
 							<value>	1.0000	</value>
 						</directionalLightInscatteringIntensity>
 						<directionalLightInscatteringExp>
-							<value>	2.0000	</value>
+							<value>	1.0000	</value>
 						</directionalLightInscatteringExp>
 						<turbidGlobalBrightness>
-							<value>	1.0000	</value>
+							<value>	1.7700	</value>
 						</turbidGlobalBrightness>
 						<sunRefractionIndex>
-							<value>	0.7000	</value>
+							<value>	0.9100	</value>
 						</sunRefractionIndex>
 						<sunGlitterIntensity>
-							<value>	0.3000	</value>
+							<value>0.0000</value>
 						</sunGlitterIntensity>
 						<sunGlitterGlossiness>
-							<value>	0.4000	</value>
+							<value>	0.6000	</value>
 						</sunGlitterGlossiness>
 						<refractionBrightness>
-							<value>	1.0000	</value>
+							<value>	4.0000	</value>
 						</refractionBrightness>
 						<refractionDistortion>
-							<value>	0.4000	</value>
+							<value>	0.3000	</value>
 						</refractionDistortion>
 						<absorbtionBase>
-							<value>	0.3500	</value>
+							<value>	0.1200	</value>
 						</absorbtionBase>
 						<lightAbsorbtionScale>
-							<value>	0.2000	</value>
+							<value>	1.0000	</value>
 						</lightAbsorbtionScale>
 						<depthAbsorbtionScale>
-							<value>	0.1000	</value>
+							<value>	0.0000	</value>
 						</depthAbsorbtionScale>
 						<waterScatteringSkyFactor>
 							<value>	0.0100	</value>
@@ -5396,7 +5393,7 @@
 							<value>	1.2000	</value>
 						</underwaterRefractionIndex>
 						<shaftsAmount>
-							<value>	0.0090	</value>
+							<value>	0.0050	</value>
 						</shaftsAmount>
 						<shaftsAmountSecondary>
 							<value>	0.3000	</value>
@@ -5405,31 +5402,31 @@
 							<value>	0.0000 0.8000 1.0000 0.0000	</value>
 						</shaftsSecondaryColor>
 						<shaftsDepthFading>
-							<value>	15.0000	</value>
+							<value>	5.1400	</value>
 						</shaftsDepthFading>
 						<causticsIntensity>
-							<value>	0.2000	</value>
+							<value>	2.9600	</value>
 						</causticsIntensity>
 						<causticsScale>
-							<value>	0.1000	</value>
+							<value>	0.4000	</value>
 						</causticsScale>
 						<causticsAnimSpeed>
-							<value>	0.1000	</value>
+							<value>	0.3000	</value>
 						</causticsAnimSpeed>
 						<causticsDepthFading>
-							<value>	2.8490	</value>
+							<value>	2.0000	</value>
 						</causticsDepthFading>
 						<causticsMoveSpeed>
-							<value>	0.2000	</value>
+							<value>	0.3000	</value>
 						</causticsMoveSpeed>
 						<causticsMaxHeight>
 							<value>	0.0000	</value>
 						</causticsMaxHeight>
 						<underwaterSunYaw>
-							<value>	270.0000	</value>
+							<value>	43.0000	</value>
 						</underwaterSunYaw>
 						<underwaterSunPitch>
-							<value>	25.0000	</value>
+							<value>	17.6000	</value>
 						</underwaterSunPitch>
 					</settings>
 				</Underwater>
@@ -5448,28 +5445,28 @@
 							<value>	2.0000	</value>
 						</UVWarpingFrequency>
 						<gravity>
-							<value>	9.8330	</value>
+							<value>	9.8100	</value>
 						</gravity>
 						<depth>
 							<value>	100.0000	</value>
 						</depth>
 						<windSpeedLargeWave>
-							<value>	9.2020	</value>
+							<value>	3.0000	</value>
 						</windSpeedLargeWave>
 						<amplitudeLargeWave>
-							<value>	0.2370	</value>
+							<value>	0.0100	</value>
 						</amplitudeLargeWave>
 						<spreadBlendLargeWave>
 							<value>	0.7500	</value>
 						</spreadBlendLargeWave>
 						<peakEnhanceLargeWave>
-							<value>	3.0000	</value>
+							<value>	0.3000	</value>
 						</peakEnhanceLargeWave>
 						<swellLargeWave>
 							<value>	1.0000	</value>
 						</swellLargeWave>
 						<fetchLargeWave>
-							<value>	306.5680	</value>
+							<value>	300.0000	</value>
 						</fetchLargeWave>
 						<fftPatchSize0>
 							<value>	300.0000	</value>
@@ -5490,31 +5487,31 @@
 							<value>	1.3000	</value>
 						</fftChoppyScale2>
 						<fftWindSpeed0>
-							<value>	1.5670	</value>
+							<value>	1.5000	</value>
 						</fftWindSpeed0>
 						<fftWindSpeed1>
-							<value>	1.5630	</value>
+							<value>	2.0000	</value>
 						</fftWindSpeed1>
 						<fftWindSpeed2>
-							<value>	15.3950	</value>
+							<value>	2.0000	</value>
 						</fftWindSpeed2>
 						<fftAmplitudeWave0>
-							<value>	0.5170	</value>
+							<value>	0.0500	</value>
 						</fftAmplitudeWave0>
 						<fftAmplitudeWave1>
-							<value>	0.4170	</value>
+							<value>	0.0250	</value>
 						</fftAmplitudeWave1>
 						<fftAmplitudeWave2>
 							<value>	0.0500	</value>
 						</fftAmplitudeWave2>
 						<fftPeakEnhanceWave0>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave0>
 						<fftPeakEnhanceWave1>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave1>
 						<fftPeakEnhanceWave2>
-							<value>	3.0000	</value>
+							<value>	0.1500	</value>
 						</fftPeakEnhanceWave2>
 						<fftSpreadBlendWave0>
 							<value>	0.5000	</value>
@@ -5523,7 +5520,7 @@
 							<value>	0.5000	</value>
 						</fftSpreadBlendWave1>
 						<fftSpreadBlendWave2>
-							<value>	0.5060	</value>
+							<value>	0.5000	</value>
 						</fftSpreadBlendWave2>
 						<fftSwellWave0>
 							<value>	0.2000	</value>
@@ -5538,25 +5535,25 @@
 							<value>	300.0000	</value>
 						</fftFetchWave0>
 						<fftFetchWave1>
-							<value>	20.4900	</value>
+							<value>	100.0000	</value>
 						</fftFetchWave1>
 						<fftFetchWave2>
-							<value>	77.1280	</value>
+							<value>	100.0000	</value>
 						</fftFetchWave2>
 						<simpleWavesWindAngle>
-							<value>	60.0000	</value>
+							<value>	360.0000	</value>
 						</simpleWavesWindAngle>
 						<wavesWindAngles>
 							<value>	0.0000 0.0000 0.0000 0.0000	</value>
 						</wavesWindAngles>
 						<variationMapOffset>
-							<value>	0.0630	</value>
+							<value>	0.4700	</value>
 						</variationMapOffset>
 						<variationMapPower>
-							<value>	0.8170	</value>
+							<value>	3.7100	</value>
 						</variationMapPower>
 						<variationMapThreshold>
-							<value>	0.4800	</value>
+							<value>	0.5600	</value>
 						</variationMapThreshold>
 						<variationMapScale>
 							<value>	1.0000	</value>
@@ -5565,7 +5562,7 @@
 							<value>	0.1000	</value>
 						</variationMapMinWave2Val>
 						<variationMapThresholdSmooth>
-							<value>	0.4470	</value>
+							<value>	0.5000	</value>
 						</variationMapThresholdSmooth>
 					</settings>
 				</Simulation>
@@ -5575,7 +5572,7 @@
 							<value>	0.8000	</value>
 						</waveLength>
 						<waveLengthFoam>
-							<value>	3.5999	</value>
+							<value>	3.5000	</value>
 						</waveLengthFoam>
 						<maxWindDir>
 							<value>	1.0000	</value>
@@ -5587,16 +5584,16 @@
 							<value>	0.3000	</value>
 						</foamWaveDeformAmplitude>
 						<foamWaveIntensity>
-							<value>	0.2667	</value>
+							<value>	1.0000	</value>
 						</foamWaveIntensity>
 						<foamWaveAddDensity>
-							<value>	0.2000	</value>
+							<value>	0.0000	</value>
 						</foamWaveAddDensity>
 						<waveParallelness>
-							<value>	0.2600	</value>
+							<value>	0.1500	</value>
 						</waveParallelness>
 						<waveSpeed>
-							<value>	1.5338	</value>
+							<value>	1.0000	</value>
 						</waveSpeed>
 						<foamWaveSpeedMult>
 							<value>	0.6000	</value>
@@ -5618,10 +5615,10 @@
 				<Sun>
 					<settings>
 						<yaw>
-							<value>	270.0000	</value>
+							<value>	43.0000	</value>
 						</yaw>
 						<pitch>
-							<value>	25.0000	</value>
+							<value>	17.6000	</value>
 						</pitch>
 						<color>
 							<value>	1.0000 0.4890 0.3000 1.0000	</value>
@@ -5640,10 +5637,10 @@
 							<value>	0.9400 0.9259 0.9212 1.0000	</value>
 						</sunDiskColor>
 						<sunDiskBrightness>
-							<value>	0.0000	</value>
+							<value>	3.0000	</value>
 						</sunDiskBrightness>
 						<sunDiskOpacity>
-							<value>	0.0000	</value>
+							<value>	0.7000	</value>
 						</sunDiskOpacity>
 					</settings>
 				</SunDisk>
@@ -5653,28 +5650,28 @@
 							<value>	content\location\skybox\LK001_moving\LK001_moving.model	</value>
 						</skyDomeModel>
 						<skyDomeYaw>
-							<value>	255.6000	</value>
+							<value>	347.4000	</value>
 						</skyDomeYaw>
 						<skyDomeTexture>
 							<value>	content/location/skybox/textures/22_TDF_HDR006_Cloudy.dds	</value>
 						</skyDomeTexture>
 						<cycleFrequency>
-							<value>	0.1000	</value>
+							<value>	0.0400	</value>
 						</cycleFrequency>
 						<parallax>
 							<value>	0.0100	</value>
 						</parallax>
 						<windYaw>
-							<value>	210.0000	</value>
+							<value>	160.2000	</value>
 						</windYaw>
 						<windScrollDist>
 							<value>	0.1000	</value>
 						</windScrollDist>
 						<windHorizonFactor>
-							<value>	0.0500	</value>
+							<value>	0.2000	</value>
 						</windHorizonFactor>
 						<windHorizonDistancePower>
-							<value>	2.5000	</value>
+							<value>	5.0000	</value>
 						</windHorizonDistancePower>
 						<skyDomeFlowMap>
 							<value>	content/location/skybox/textures/22_TDF_HDR006_Cloudy_flowmap.dds	</value>
@@ -5689,16 +5686,16 @@
 							<value>	content/location/skybox/textures/Blendmap_tile.dds	</value>
 						</skyDomeBlendMap>
 						<blendingMapTiling>
-							<value>	10.0000	</value>
+							<value>	0.0000	</value>
 						</blendingMapTiling>
 						<blendingMapWindFactor>
-							<value>	0.2000	</value>
+							<value>	0.0000	</value>
 						</blendingMapWindFactor>
 						<blendingMapFlowFactor>
-							<value>	0.5000	</value>
+							<value>	0.0000	</value>
 						</blendingMapFlowFactor>
 						<blendingMapCycleFrequency>
-							<value>	0.3000	</value>
+							<value>	0.5000	</value>
 						</blendingMapCycleFrequency>
 						<cloudsMaskTexture>
 							<value>	null	</value>
@@ -5716,22 +5713,22 @@
 								<value>	content/location/skybox/textures/cloud_shadows/CloudShadows_Blurred_med_01.dds	</value>
 							</cloudsShadowMapTextureLayer1>
 							<intensityLayer0>
-								<value>	0.5000	</value>
+								<value>	0.4650	</value>
 							</intensityLayer0>
 							<intensityLayer1>
-								<value>	0.5000	</value>
+								<value>	0.3550	</value>
 							</intensityLayer1>
 							<scaleLayer0>
-								<value>	0.5000	</value>
+								<value>	0.7000	</value>
 							</scaleLayer0>
 							<scaleLayer1>
-								<value>	0.7400	</value>
+								<value>	0.3000	</value>
 							</scaleLayer1>
 							<speedCoefficientLayer1>
-								<value>	1.0000	</value>
+								<value>	0.3000	</value>
 							</speedCoefficientLayer1>
 							<yawShiftLayer1>
-								<value>	165.0000	</value>
+								<value>	15.0000	</value>
 							</yawShiftLayer1>
 							<shiftX>
 								<value>	0.0000	</value>
@@ -5746,10 +5743,10 @@
 			<Forest>
 				<settings>
 					<aoAmplification>
-						<value>	1.2000	</value>
+						<value>	0.2950	</value>
 					</aoAmplification>
 					<transmissionAmplification>
-						<value>	0.5950	</value>
+						<value>	0.8200	</value>
 					</transmissionAmplification>
 					<windStrength>
 						<value>	0.2000	</value>
@@ -5758,7 +5755,7 @@
 						<value>	15.0000	</value>
 					</windDirection>
 					<windGustFrequency>
-						<value>	0.0500	</value>
+						<value>	0.0000	</value>
 					</windGustFrequency>
 					<tintMapAOAmplification>
 						<value>	1.0000	</value>
@@ -5830,10 +5827,10 @@
 				<DynamicShadows>
 					<settings>
 						<seaShadowPenumbraSize>
-							<value>	7.0000	</value>
+							<value>	2.0000	</value>
 						</seaShadowPenumbraSize>
 						<opaqueShadowPenumbraSize>
-							<value>	4.0000	</value>
+							<value>	2.0000	</value>
 						</opaqueShadowPenumbraSize>
 						<opaqueShadowContactDistance>
 							<value>	2.0000	</value>
